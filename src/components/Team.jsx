@@ -9,7 +9,12 @@ class Team extends Component {
     return (
       <>
         {team.map(member => (
-          <TeamMember key={uniqid()} name={member.name} avatar={member.avatar} />
+          <TeamMember
+            key={uniqid()}
+            github={member.github}
+            name={member.name}
+            avatar={member.avatar}
+          />
         ))}
       </>
     );
