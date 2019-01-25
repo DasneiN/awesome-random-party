@@ -1,185 +1,185 @@
 [
-    {
-        "general":{
-            "nameArchitect": "Levin, Leonid Mendelevich",
-            "information": "Honored Architect of the Republic of Belarus, Laureate of the Lenin Prize and the Lenin Komsomol Prize, Winner of the Volgograd Komsomol Prize, twice winner of the State Prize of the Republic of Belarus, winner of many prestigious competitions and reviews of architectural works, Chairman of the Union of Belarusian Jewish public associations and communities 1991.",
-            "urlFoto": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Levin_Leonid_Mendele.jpg",
-            "dateBirth": "July 25, 1936",
-            "dateDeath": "March 1, 2014",
-            "sity": "Minsk"
+  {
+    "general":{
+      "nameArchitect": "Levin, Leonid Mendelevich",
+      "information": "Honored Architect of the Republic of Belarus, Laureate of the Lenin Prize and the Lenin Komsomol Prize, Winner of the Volgograd Komsomol Prize, twice winner of the State Prize of the Republic of Belarus, winner of many prestigious competitions and reviews of architectural works, Chairman of the Union of Belarusian Jewish public associations and communities 1991.",
+      "urlFoto": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Levin_Leonid_Mendele.jpg",
+      "dateBirth": "July 25, 1936",
+      "dateDeath": "March 1, 2014",
+      "sity": "Minsk"
 
-        },
-        "biography": [
-            {
-                "period": "July 25, 1936",
-                "information": "Родился в г.Минске, закончил 13-ю школу."
-            },
-            {
-                "period": "1954—1960",
-                "information": "study at the Belarusian Polytechnic Institute."
-            },
-            {
-                "period": "Since 1960",
-                "information": "he has been working at the Minskproject Institute (from architect to head of the Minsk Construction Center Workshop)."
-            },
-            {
-                "period": "1968",
-                "information": "participation in the creation of the exhibition pavilion EANE BSSR in Minsk."
-            },
-            {
-                "period": "1970",
-                "information": "as a member of the group of authors, he was awarded the Lenin Prize for the memorial complex «Khatyn» of 1968-1969."
-            },
-            {
-                "period": "С 1997 года",
-                "information": "Director of the workshop of the «Creative Workshop of the Architect L.Levin»."
-            },
-            {
-                "period": "March 1, 2014",
-                "information": "He died in Minsk. He was buried on March 4, 2014 at the Eastern Cemetery in Minsk."
-            }
-        ],
-        "MainWorks": [
-            {
-                "nameWorks": "Memorial complexes",
-                "list": [
-                    "Memorial ensemble «Khatyn» (1969)",
-                    "Memorial complex «Pit» (the territory of the former Minsk ghetto )",
-                    "To children who died in the Great Patriotic War (at the site of a children's concentration camp) and from the Chernobyl disaster (town of Krasny Bereg, Zhlobinsky district , 2006)",
-                    "Memorial complex to ghetto prisoners in Slutsk",
-                    "Memorial complex to the dead Jews of the town of Gorodeya (2004)",
-                    "Shunevka (memorial complex «Curse of Fascism»)",
-                    "Memorial complex «Breakthrough» near the village of Ushachi, Ushachsky District, Vitebsk Region"
-                ]
-            },
-            {
-                "nameWorks": "Monuments",
-                "list": [
-                    "Monument to the Belarusian partisans («Breakthrough»)",
-                    "Monument to Yank Kupala (Minsk, 1972)",
-                    "Monument to Yakub Kolas (Minsk, 1972)",
-                    "Monument to Prince David in David-Gorodok (2000)",
-                    "Monument to the victims of the Minsk ghetto (1998-2000, Minsk, pl. Yubileinaya)"
-                ]
-            },
-            {
-                "nameWorks": "Иные архитектурные проекты",
-                "list": [
-                    "City Committee of the Communist Party of Belarus(1979), Ministry of Foreign Affairs",
-                    "Building for the exhibition of achievements of the national economy (1968)",
-                    "author of the creation of a project for the Minsk metro station «Lenin Square» (1984) and «Nemiga» (1990)",
-                    "developed the project of planning and development of the center (1970-1975), Masherov Avenue (1980)",
-                    "took part in the creation of the park in honor of the 50th anniversary of the Soviet government",
-                    "Historical «Nemiga» (authorship of the reconstruction of the historical part of Minsk)",
-                    "«Trinity Suburb» (Minsk, 1980-1986)",
-                    "Nemiga Street",
-                    "Rakovsky suburb",
-                    "quarter of artist Marc Chagall in Vitebsk.",
-                    "«Shtalag-342» (Molodechno siti, 1990)"
-                ]
-            },
-            {
-                "nameWorks": "Book",
-                "list": [
-                    "«Khatyn» (2005) (prose)",
-                    "«Bench» (prose)",
-                    "«War and lоve» (prose)",
-                    "«Moments» (poems)",
-                    "«Survive the experience» (album)"
-                ]
-            }
-        ],
-        "foto": [
-           "https://upload.wikimedia.org/wikipedia/commons/0/01/Khatyn_Memorial%2C_Belarus.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/3/39/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D1%8C_-_panoramio_%282%29.jpg",
-           "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%80%D1%8B%D0%B2_(%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81)#/media/File:Ushachy_District,_Belarus_-_panoramio_(2).jpg",
-           "https://upload.wikimedia.org/wikipedia/ru/f/ff/Yanka-kupala-minsk.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Minsk_Thinker_-_panoramio.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/5/5e/Metro_Plosca_Lienina%2C_Minsk.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/5/52/Nyam_08.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/1/17/Traeckaje_suburb-3.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/5/55/Niamiha_str_1.jpg"
-        ],
-        "video": [
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/t8D81wMrwBw?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/P2-yBJvcJUo?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5XRVOs91r3M?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/p_Z2memo1gE?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-        ],
-        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150508.63551093655!2d27.579646350253995!3d53.88380686181897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1548368916962\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
     },
-    {
-        "general": {
-            "nameArchitect": "Baklanov, Mikhail Ivanovich",
-            "information": "Belarusian Soviet architect. Honored Architect of the Belarusian SSR (1969).",
-            "urlFoto": "https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85% D0%B0%B0% 98% D0% B2% D0% B0% D0% BD% D0% BE% D0% B2% D0% B8% D1% 87_% D0% 91% D0% B0% D0% BA% D0% BB% D0% B0% D0% BD% D0% BE% D0% B2.jpg ",
-            "dateBirth": "February 12, 1914",
-            "dateDeath": "January 23, 1990"
-        },
-        "biography": [
-            {
-               "period": "February 12, 1914",
-               "information": "He was born in the village of Ivanovka (now Volnovakhsky district, Donetsk region of Ukraine)."
-            },
-            {
-               "period": "1932-1940",
-               "information": "After graduating from the school of factory education, he worked as a draftsman at the Donetsk Metallurgical Plant. In 1932, M. Baklanov began studying at the Kharkov Architectural and Construction College, after which in 1936 he entered the Kharkov Civil Engineering Institute (now Kharkov National University of Construction and Architecture). "
-            },
-            {
-               "period": "1940-1944",
-               "information": "At the beginning of the Great Patriotic War, Private Baklanov fought against the Nazis, but was captured in July 1941. Before 1943, he was in prison camps in Poland. In March, he fled and soon afterwards joined the partisan brigade" People's Avengers ". For active participation in the battles with the occupiers, he was awarded the medal" Partisan of the Patriotic War "I degree."
-            },
-            {
-               "period": "1944-1974",
-               "information": "In August 1944, they were sent to work in the architectural planning workshop of the Office for Architecture at SNK BSSR (Belgosproekt) in the workshop headed by Professor M. Barsch. For 36 years, the architect's working biography was associated with this institute. Here he went from an ordinary architect to the head of an architectural design workshop. "
-            },
-            {
-               "period": "1974-1989",
-               "information": "After retirement I became interested in painting, copied works of Russian artists of the second half of the XIX century."
-            },
-            {
-               "period": "January 23, 1990",
-               "information": "He died in his apartment in Minsk."
-            }
-        ],
-        "MainWorks": [
-            {
-                "nameWorks": "Projects and buildings",
-                "list": [
-                "National Academic Drama Theater. M. Gorky",
-                "The building of the Minsk Regional Statistical Office (1954)",
-                "The building of the architectural and construction technical school (1954)",
-                "National Art Museum of the Republic of Belarus",
-                "Belarusian State Agrarian Technical University",
-                "Building of the State Art Gallery of the BSSR",
-                "Main building, building of radiophysics and electronics of the Belarusian State University (1966)",
-                "The holiday complex «Sosny» (1975) on the lake Naroch (Myadel district, Minsk region)",
-                "Cinema «Victory» on Internatsionalnaya street (jointly with M. Barshch)",
-                "State cottages of the Administration of the Affairs of the Council of Ministers of Belarus in Belovezhskaya Pushcha",
-                "Educational buildings of the Medical Institute"
-                ]
-            }
-        ],
-        "foto": [
-           "https://upload.wikimedia.org/wikipedia/commons/1/13/%D0%A5%D1%83%D0%B4_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A0%D0%91.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/5/53/Bakanovl-konv.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/a/ab/Minsk_Drama_Theatre.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/9/9e/BGMU.jpg",
-           "https://upload.wikimedia.org/wikipedia/commons/b/b5/Belarus-Minsk-BSU-Rector%27s_Office-2.jpg",
-           "https://konspekta.net/studopedianet/baza2/994265260559.files/image007.png",
-           "https://vetliva.ru/upload/resize_cache/iblock/87b/1170_640_2ad00f77cb8d50abfaeeae09efd4a5122/87b253c44036acc444686e944f76f1b2.jpg",
-           "http://budny.by/Portals/0/EasyDNNnews/3380/3380p_0001.jpg",
-           "https://most-beauty.ru/wp-content/uploads/2018/04/Sosny.jpg",
-           "http://2.bp.blogspot.com/_2FJ60ov870I/THeOaxXhk7I/AAAAAAAAABc/nkyHg0MxjWU/s1600/DSC000852.jpg"
-        ],
-        "video": [
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PKSii0OVqlI?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/l2Nih3bp28E?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wlZ3bB7-BIM?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9rec00KMJBo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-        ],
-        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30895.87428862008!2d37.30160898691395!3d47.573938920815635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e74966c16cc677%3A0x3473eabd3e49bb51!2z0JjQstCw0L3QvtCy0LrQsCwg0JTQvtC90LXRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDg1NzYz!5e0!3m2!1sru!2sby!4v1548380014949\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
-    }
+    "biography": [
+      {
+        "period": "July 25, 1936",
+        "information": "Родился в г.Минске, закончил 13-ю школу."
+      },
+      {
+        "period": "1954—1960",
+        "information": "study at the Belarusian Polytechnic Institute."
+      },
+      {
+        "period": "Since 1960",
+        "information": "he has been working at the Minskproject Institute (from architect to head of the Minsk Construction Center Workshop)."
+      },
+      {
+        "period": "1968",
+        "information": "participation in the creation of the exhibition pavilion EANE BSSR in Minsk."
+      },
+      {
+        "period": "1970",
+        "information": "as a member of the group of authors, he was awarded the Lenin Prize for the memorial complex «Khatyn» of 1968-1969."
+      },
+      {
+        "period": "С 1997 года",
+        "information": "Director of the workshop of the «Creative Workshop of the Architect L.Levin»."
+      },
+      {
+        "period": "March 1, 2014",
+        "information": "He died in Minsk. He was buried on March 4, 2014 at the Eastern Cemetery in Minsk."
+      }
+    ],
+    "MainWorks": [
+      {
+        "nameWorks": "Memorial complexes",
+        "list": [
+          "Memorial ensemble «Khatyn» (1969)",
+          "Memorial complex «Pit» (the territory of the former Minsk ghetto )",
+          "To children who died in the Great Patriotic War (at the site of a children's concentration camp) and from the Chernobyl disaster (town of Krasny Bereg, Zhlobinsky district , 2006)",
+          "Memorial complex to ghetto prisoners in Slutsk",
+          "Memorial complex to the dead Jews of the town of Gorodeya (2004)",
+          "Shunevka (memorial complex «Curse of Fascism»)",
+          "Memorial complex «Breakthrough» near the village of Ushachi, Ushachsky District, Vitebsk Region"
+        ]
+      },
+      {
+        "nameWorks": "Monuments",
+        "list": [
+          "Monument to the Belarusian partisans («Breakthrough»)",
+          "Monument to Yank Kupala (Minsk, 1972)",
+          "Monument to Yakub Kolas (Minsk, 1972)",
+          "Monument to Prince David in David-Gorodok (2000)",
+          "Monument to the victims of the Minsk ghetto (1998-2000, Minsk, pl. Yubileinaya)"
+        ]
+      },
+      {
+        "nameWorks": "Иные архитектурные проекты",
+        "list": [
+          "City Committee of the Communist Party of Belarus(1979), Ministry of Foreign Affairs",
+          "Building for the exhibition of achievements of the national economy (1968)",
+          "author of the creation of a project for the Minsk metro station «Lenin Square» (1984) and «Nemiga» (1990)",
+          "developed the project of planning and development of the center (1970-1975), Masherov Avenue (1980)",
+          "took part in the creation of the park in honor of the 50th anniversary of the Soviet government",
+          "Historical «Nemiga» (authorship of the reconstruction of the historical part of Minsk)",
+          "«Trinity Suburb» (Minsk, 1980-1986)",
+          "Nemiga Street",
+          "Rakovsky suburb",
+          "quarter of artist Marc Chagall in Vitebsk.",
+          "«Shtalag-342» (Molodechno siti, 1990)"
+        ]
+      },
+      {
+        "nameWorks": "Book",
+        "list": [
+          "«Khatyn» (2005) (prose)",
+          "«Bench» (prose)",
+          "«War and lоve» (prose)",
+          "«Moments» (poems)",
+          "«Survive the experience» (album)"
+        ]
+      }
+    ],
+    "foto": [
+       "https://upload.wikimedia.org/wikipedia/commons/0/01/Khatyn_Memorial%2C_Belarus.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/3/39/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D1%8C_-_panoramio_%282%29.jpg",
+       "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%80%D1%8B%D0%B2_(%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81)#/media/File:Ushachy_District,_Belarus_-_panoramio_(2).jpg",
+       "https://upload.wikimedia.org/wikipedia/ru/f/ff/Yanka-kupala-minsk.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Minsk_Thinker_-_panoramio.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/5/5e/Metro_Plosca_Lienina%2C_Minsk.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/5/52/Nyam_08.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/1/17/Traeckaje_suburb-3.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/5/55/Niamiha_str_1.jpg"
+    ],
+    "video": [
+      "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/t8D81wMrwBw?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/P2-yBJvcJUo?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5XRVOs91r3M?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/p_Z2memo1gE?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150508.63551093655!2d27.579646350253995!3d53.88380686181897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1548368916962\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+  },
+  {
+      "general": {
+      "nameArchitect": "Baklanov, Mikhail Ivanovich",
+      "information": "Belarusian Soviet architect. Honored Architect of the Belarusian SSR (1969).",
+      "urlFoto": "https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85% D0%B0%B0% 98% D0% B2% D0% B0% D0% BD% D0% BE% D0% B2% D0% B8% D1% 87_% D0% 91% D0% B0% D0% BA% D0% BB% D0% B0% D0% BD% D0% BE% D0% B2.jpg ",
+      "dateBirth": "February 12, 1914",
+      "dateDeath": "January 23, 1990"
+    },
+      "biography": [
+      {
+        "period": "February 12, 1914",
+        "information": "He was born in the village of Ivanovka (now Volnovakhsky district, Donetsk region of Ukraine)."
+      },
+      {
+        "period": "1932-1940",
+        "information": "After graduating from the school of factory education, he worked as a draftsman at the Donetsk Metallurgical Plant. In 1932, M. Baklanov began studying at the Kharkov Architectural and Construction College, after which in 1936 he entered the Kharkov Civil Engineering Institute (now Kharkov National University of Construction and Architecture). "
+      },
+      {
+        "period": "1940-1944",
+        "information": "At the beginning of the Great Patriotic War, Private Baklanov fought against the Nazis, but was captured in July 1941. Before 1943, he was in prison camps in Poland. In March, he fled and soon afterwards joined the partisan brigade" People's Avengers ". For active participation in the battles with the occupiers, he was awarded the medal" Partisan of the Patriotic War "I degree."
+      },
+      {
+        "period": "1944-1974",
+        "information": "In August 1944, they were sent to work in the architectural planning workshop of the Office for Architecture at SNK BSSR (Belgosproekt) in the workshop headed by Professor M. Barsch. For 36 years, the architect's working biography was associated with this institute. Here he went from an ordinary architect to the head of an architectural design workshop. "
+      },
+      {
+        "period": "1974-1989",
+        "information": "After retirement I became interested in painting, copied works of Russian artists of the second half of the XIX century."
+      },
+      {
+        "period": "January 23, 1990",
+        "information": "He died in his apartment in Minsk."
+      }
+    ],
+    "MainWorks": [
+      {
+        "nameWorks": "Projects and buildings",
+        "list": [
+        "National Academic Drama Theater. M. Gorky",
+        "The building of the Minsk Regional Statistical Office (1954)",
+        "The building of the architectural and construction technical school (1954)",
+        "National Art Museum of the Republic of Belarus",
+        "Belarusian State Agrarian Technical University",
+        "Building of the State Art Gallery of the BSSR",
+        "Main building, building of radiophysics and electronics of the Belarusian State University (1966)",
+        "The holiday complex «Sosny» (1975) on the lake Naroch (Myadel district, Minsk region)",
+        "Cinema «Victory» on Internatsionalnaya street (jointly with M. Barshch)",
+        "State cottages of the Administration of the Affairs of the Council of Ministers of Belarus in Belovezhskaya Pushcha",
+        "Educational buildings of the Medical Institute"
+        ]
+      }
+    ],
+    "foto": [
+       "https://upload.wikimedia.org/wikipedia/commons/1/13/%D0%A5%D1%83%D0%B4_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A0%D0%91.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/5/53/Bakanovl-konv.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/a/ab/Minsk_Drama_Theatre.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/9/9e/BGMU.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/b/b5/Belarus-Minsk-BSU-Rector%27s_Office-2.jpg",
+       "https://konspekta.net/studopedianet/baza2/994265260559.files/image007.png",
+       "https://vetliva.ru/upload/resize_cache/iblock/87b/1170_640_2ad00f77cb8d50abfaeeae09efd4a5122/87b253c44036acc444686e944f76f1b2.jpg",
+       "http://budny.by/Portals/0/EasyDNNnews/3380/3380p_0001.jpg",
+       "https://most-beauty.ru/wp-content/uploads/2018/04/Sosny.jpg",
+       "http://2.bp.blogspot.com/_2FJ60ov870I/THeOaxXhk7I/AAAAAAAAABc/nkyHg0MxjWU/s1600/DSC000852.jpg"
+    ],
+    "video": [
+      "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PKSii0OVqlI?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/l2Nih3bp28E?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wlZ3bB7-BIM?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9rec00KMJBo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30895.87428862008!2d37.30160898691395!3d47.573938920815635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e74966c16cc677%3A0x3473eabd3e49bb51!2z0JjQstCw0L3QvtCy0LrQsCwg0JTQvtC90LXRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDg1NzYz!5e0!3m2!1sru!2sby!4v1548380014949\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+  }
 
 ]
