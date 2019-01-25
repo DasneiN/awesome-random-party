@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
-class Team extends Component {
+class TeamMember extends Component {
   render() {
     const { name, avatar } = this.props;
 
     return (
-      <img src={avatar} alt={`${name}'s avatar`} width="100" height="100" />
+      <div clasName="team-member">
+        <img src={avatar} alt={`${name}'s avatar`} width="100" height="100" />
+        <p>{name}</p>
+      </div>
     );
   }
 }
-export default Team;
+export default TeamMember;
