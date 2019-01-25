@@ -6,7 +6,8 @@
       "fotoArchitect": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Levin_Leonid_Mendele.jpg",
       "dateBirth": "25 июля 1936",
       "dateDeath": "1 марта 2014",
-      "sity": "Минск"
+			"сityBirth": "г.Минск",
+			"countryBirth": "Республика Беларусь"
     },
     "biography": [
       {
@@ -121,7 +122,9 @@
       "information": "белорусский советский архитектор. Заслуженный архитектор Белорусской ССР (1969).",
       "fotoArchitect": "https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BA%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2.jpg",
       "dateBirth": "12 февраля 1914",
-      "dateDeath": "23 января 1990"
+			"dateDeath": "23 января 1990",
+			"сityBirth": "д.Ивановка", 
+			"countryBirth": "Республика Украина"
     },
     "biography": [
       {
@@ -196,7 +199,9 @@
       "information": "советский архитектор и педагог, работавший в конце 1940-х — начале 1950-х годов в Литве; заслуженный архитектор Беларуси (1980), член-корреспондент Белорусской академии архитектуры.",
       "fotoArchitect": "http://ais.by/sites/ais.by/files/2013/201301/Anikin.jpg",
       "dateBirth": "14 января 1918",
-      "dateDeath": "23 сентября 1997"
+			"dateDeath": "23 сентября 1997",
+			"сityBirth": "г.Алатырь",
+			"countryBirth": "Чувашская Республика"
     },
     "biography": [
       {
@@ -276,7 +281,9 @@
       "information": "дважды лауреат Государственной премии Республики Беларусь, профессор, член-корреспондент Международной академии архитектуры.",
       "fotoArchitect": "https://www.belarus.by/relimages/001575_897934.jpg",
       "dateBirth": "11 июня 1945",
-      "dateDeath": ""
+			"dateDeath": "",
+			"сityBirth": "г.Гродно",
+			"countryBirth": "Республика Беларусь"
     },
     "biography": [
       {
@@ -345,7 +352,9 @@
       "information": "заслуженный архитектор БССР, член Белорусского союза архитекторов, член-корреспондент Петровской академии наук и искусств, академик Белорусской академии архитектуры. Ученик знаменитого минского архитектора Иосифа Лангбарда.",
       "fotoArchitect": "https://www.sb.by/upload/iblock/00a/00a5f9a355036bf16cc42b45b049caaa.jpg",
       "dateBirth": "17 октября 1919",
-      "dateDeath": "5 января 2010"
+			"dateDeath": "5 января 2010",
+			"сityBirth": "г.Вологда",
+			"countryBirth": "РСФСР"
     },
     "biography": [
       {

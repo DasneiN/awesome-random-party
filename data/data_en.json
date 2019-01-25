@@ -6,8 +6,8 @@
       "fotoArchitect": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Levin_Leonid_Mendele.jpg",
       "dateBirth": "July 25, 1936",
       "dateDeath": "March 1, 2014",
-      "sity": "Minsk"
-
+      "сityBirth": "Minsk",
+			"countryBirth": "Republic of Belarus"
     },
     "biography": [
       {
@@ -118,7 +118,9 @@
       "information": "Belarusian Soviet architect. Honored Architect of the Belarusian SSR (1969).",
       "fotoArchitect": "https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85% D0%B0%B0% 98% D0% B2% D0% B0% D0% BD% D0% BE% D0% B2% D0% B8% D1% 87_% D0% 91% D0% B0% D0% BA% D0% BB% D0% B0% D0% BD% D0% BE% D0% B2.jpg ",
       "dateBirth": "February 12, 1914",
-      "dateDeath": "January 23, 1990"
+			"dateDeath": "January 23, 1990",
+			"сityBirth": "Ivanovka", 
+			"countryBirth": "Republic of Ukraine"
     },
       "biography": [
       {
@@ -193,7 +195,9 @@
 			"information": "Soviet architect and teacher who worked in the late 1940s - early 1950s in Lithuania; honored architect of Belarus (1980), corresponding member of the Belarusian Academy of Architecture.",
 			"fotoArchitect": "http://ais.by/sites/ais.by/files/2013/201301/Anikin.jpg",
 			"dateBirth": "January 14, 1918",
-			"dateDeath": "September 23, 1997"
+			"dateDeath": "September 23, 1997",
+			"сityBirth": "Alatyr",
+			"countryBirth": "Chuvash Republic"
 		},
 		"biography": [
 		{
@@ -273,7 +277,9 @@
       "information": "twice winner of the State Prize of the Republic of Belarus, professor, corresponding member of the International Academy of Architecture.",
       "fotoArchitect": "https://www.belarus.by/relimages/001575_897934.jpg",
       "dateBirth": "June 11, 1945",
-      "dateDeath": ""
+			"dateDeath": "",
+			"сityBirth": "Grodno",
+			"countryBirth": "Republic of Belarus"
     },
     "biography": [
       {
@@ -342,7 +348,9 @@
       "information": "honored Architect of the BSSR, member of the Belarusian Union of Architects, Corresponding Member of the Peter Academy of Sciences and Arts, Academician of the Belarusian Academy of Architecture. Pupil of the famous Minsk architect Joseph Langbard.",
       "fotoArchitect": "https://www.sb.by/upload/iblock/00a/00a5f9a355036bf16cc42b45b049caaa.jpg",
       "dateBirth": "October 17, 1919",
-      "dateDeath": "January 5th, 2010"
+			"dateDeath": "January 5th, 2010",
+			"сityBirth": "Volgda",
+			"countryBirth": "RSFSR"
     },
     "biography": [
       {
