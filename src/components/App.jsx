@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import i18n from 'i18next';
 import Main from '../pages/Main';
 import Architects from '../pages/Architects';
+import Architect from '../pages/Architect';
 import LangSwitcher from './LangSwitcher';
 import Loader from './Loader';
 import Footer from './Footer';
@@ -22,7 +23,6 @@ class App extends Component {
       isLoading: true,
     };
   }
-
 
   async componentDidMount() {
     const { lang } = this.state;
@@ -58,8 +58,11 @@ class App extends Component {
     const { lang, data, isLoading } = this.state;
 
     let page;
-    page = <Main team={team} lang={lang} data={data} />;
-    page = <Architects data={data} />;
+    if (!isLoading) {
+      page = <Main team={team} lang={lang} data={data} />;
+      page = <Architects data={data} />;
+      page = <Architect person={data[2]} />;
+    }
 
     return (
       <>
