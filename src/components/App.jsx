@@ -3,23 +3,25 @@ import i18n from 'i18next';
 import Main from '../pages/Main';
 import Architects from '../pages/Architects';
 import Architect from '../pages/Architect';
-import LangSwitcher from './LangSwitcher';
 import Loader from './Loader';
 import Footer from './Footer';
 import team from '../config/team';
 
 import '../styles/App.css';
+import Header from './Header';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.selectLangHandler = this.selectLangHandler.bind(this);
+    this.selectPageHandler = this.selectPageHandler.bind(this);
 
     const lang = localStorage.getItem('lang');
 
     this.state = {
       lang,
+      currentPage: 'Main',
       isLoading: true,
     };
   }
@@ -54,24 +56,42 @@ class App extends Component {
     this.loadData(lang);
   }
 
+  selectPageHandler(currentPage) {
+    this.setState({
+      currentPage,
+    });
+  }
+
   render() {
-    const { lang, data, isLoading } = this.state;
+    const {
+      lang, data, isLoading, currentPage,
+    } = this.state;
 
     let page;
-    if (!isLoading) {
-      page = <Main team={team} lang={lang} data={data} />;
-      page = <Architects data={data} />;
-      page = <Architect person={data[2]} />;
+    if (isLoading) {
+      page = <Loading />
+    } else {
+      switch (currentPage) {
+        case 'Architects': {
+          page = <Architects data={data} />;
+          break;
+        }
+        case 'Architect': {
+          page = <Architect person={data[2]} />;
+          break;
+        }
+        default:
+          page = <Main team={team} lang={lang} data={data} />;
+      }
     }
-
+    
     return (
       <>
-        <LangSwitcher onClick={this.selectLangHandler} />
-        {
-          isLoading
-            ? <Loader />
-            : page
-        }
+        <Header
+          selectLangHandler={this.selectLangHandler}
+          selectPageHandler={this.selectPageHandler}
+        />
+        {page}
         <Footer />
       </>
     );
