@@ -40,7 +40,7 @@ class Architects extends Component {
   }
 
   render() {
-    const { data } = this.props;
+    const { data, getPersonToShow } = this.props;
     const { filter } = this.state;
 
     const architects = Architects.getFilteredArchitects(data, filter);
@@ -49,7 +49,13 @@ class Architects extends Component {
       <>
         <Search onChange={this.inputTextHandler} />
         {
-          architects.map(architect => <ArchitectShortInfo key={uniqid()} person={architect} />)
+          architects.map(architect => (
+            <ArchitectShortInfo
+              key={uniqid()}
+              person={architect}
+              onClick={getPersonToShow}
+            />
+          ))
         }
       </>
     );

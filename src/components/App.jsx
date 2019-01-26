@@ -16,6 +16,7 @@ class App extends Component {
 
     this.selectLangHandler = this.selectLangHandler.bind(this);
     this.selectPageHandler = this.selectPageHandler.bind(this);
+    this.getPersonToShow = this.getPersonToShow.bind(this);
 
     const lang = localStorage.getItem('lang');
 
@@ -23,6 +24,7 @@ class App extends Component {
       lang,
       currentPage: 'Main',
       isLoading: true,
+      personToShow: {},
     };
   }
 
@@ -31,6 +33,16 @@ class App extends Component {
 
     this.loadData(lang);
   }
+
+  // Who will be shown on Architect page
+  getPersonToShow(personToShow) {
+    this.setState({
+      personToShow,
+    });
+
+    this.selectPageHandler('Architect');
+  }
+  // Who will be shown on Architect page
 
   async loadData(lang) {
     this.setState({
@@ -64,7 +76,7 @@ class App extends Component {
 
   render() {
     const {
-      lang, data, isLoading, currentPage,
+      lang, data, isLoading, currentPage, personToShow,
     } = this.state;
 
     let page;
@@ -73,15 +85,29 @@ class App extends Component {
     } else {
       switch (currentPage) {
         case 'Architects': {
-          page = <Architects data={data} />;
+          page = (
+            <Architects
+              data={data}
+              getPersonToShow={this.getPersonToShow}
+              selectPageHandler={this.selectPageHandler}
+            />
+          );
           break;
         }
         case 'Architect': {
-          page = <Architect person={data[2]} />;
+          page = <Architect person={personToShow} />;
           break;
         }
         default:
-          page = <Main team={team} lang={lang} data={data} />;
+          page = (
+            <Main
+              team={team}
+              lang={lang}
+              data={data}
+              getPersonToShow={this.getPersonToShow}
+              selectPageHandler={this.selectPageHandler}
+            />
+          );
       }
     }
 
