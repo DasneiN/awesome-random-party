@@ -2,6 +2,8 @@
   "en": {
     "translation": {
       "MainPage": "Main Page",
+      "More": "More",
+      "ArchitectOfTheDay": "Architect of the day",
       "Dzmitry Tsebruk": "Dzmitry Tsebruk",
       "Aleh Serhiyenia": "Aleh Serhiyenia",
       "Dzianis Hancharou": "Dzianis Hancharou",
@@ -12,6 +14,8 @@
   "ru": {
     "translation": {
       "MainPage": "Главная страница",
+      "More": "Подробнее",
+      "ArchitectOfTheDay": "Архитектор дня",
       "Dzmitry Tsebruk": "Дмитрий Цебрук",
       "Aleh Serhiyenia": "Олег Сергиеня",
       "Dzianis Hancharou": "Денис Гончаров",
@@ -22,6 +26,8 @@
   "by": {
     "translation": {
       "MainPage": "Галоуная старонка",
+      "More": "Больш падрабязна",
+      "ArchitectOfTheDay": "Архітэктар дня",
       "Dzmitry Tsebruk": "Дзмітрый Цэбрук",
       "Aleh Serhiyenia": "Алег Сергіеня",
       "Dzianis Hancharou": "Дзяніс Ганчароў",
