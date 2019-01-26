@@ -1,0 +1,403 @@
+/* general */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font: normal 16px sans-serif;
+	color: #414a4f;
+}
+
+li{
+	list-style: none;
+
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+
+	opacity: 0.9;
+}
+
+a:hover{
+	opacity: 1;
+}
+
+a.btn{
+	color: #fff;
+	border-radius: 35px;
+	text-transform: uppercase;
+	background-color: #2196F3;
+	font-weight: 800;
+	text-align: center;
+}
+
+hr{
+	width: 150px;
+	height: 2px;
+	background-color: #2196F3;
+	border: 0;
+	margin-bottom: 80px;
+}
+/* 
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 25px 0px;
+} */
+
+.maps {
+    width: 100%;
+    height: 200px;
+}
+
+span.headlines {
+	font-weight: 600;
+    font-size: 1.1em;
+    flex: 1;
+}
+
+@media (max-width: 768px){
+
+	section{
+		padding: 100px 50px;
+	}
+
+}
+
+@media (max-width: 600px){
+
+	section{
+		padding: 50px 40px;
+	}
+
+}
+
+section h3.title{
+	color: #414a4f;
+	font: bold 1.5em 'Open Sans', sans-serif;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+section h2{
+	text-align: left;
+    margin: 0 0 10px 25px;
+}
+
+@media (max-width: 1000px){
+	header{
+		padding: 20px 50px;
+	}
+}
+
+@media (max-width: 768px){
+	header{
+		flex-direction: column;		
+	}
+
+	header h2{
+		margin-bottom: 15px;
+	}
+}
+
+/* architects-info */
+
+.person-page.architects-info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 25px 35px 40px;
+	position: relative;
+	color: #414a4f;
+	justify-content: center;
+	background-color: #87C6FF;
+	
+}
+
+.person-page .architects-info {
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+	max-width: 1024px;
+}
+
+.person-page .name-architects {
+	margin: 0 0 10px 0;
+}
+
+.person-page .name-architects-source {
+	color: #414a4f;
+    font: bold 32px 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.person-page .inform-architects {
+	margin: 0 0 10px 0;
+}
+
+.person-page .yers-life-architects {
+	display: flex;
+    align-items: baseline;
+    margin: 0 0 10px 0;
+}
+
+.person-page .city-birth-architects {
+	display: flex;
+    align-items: baseline;
+    margin: 0 0 10px 0;
+}
+
+.yers-life-architects .source-life,
+.city-birth-architects .source-birth {
+	flex: 2;
+    font-size: 1.1em;
+}
+
+.person-page .foto-architects {
+	text-align: center;
+    flex: 1;
+}
+
+.person-page .source-foto{
+	width: 50%;
+	border-radius: 5px;
+	border: 3px solid #87C6FF;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.199);
+}
+
+.person-page .box-information {
+    flex: 2;
+}
+
+.person-page .form-architects-source{
+	text-indent: 30px;
+}
+
+.person-page.architects-info h3{
+	font: normal 28px 'Open Sans', sans-serif;
+	margin-bottom: 40px;
+}
+
+.person-page.architects-info a.btn{
+	padding: 20px 46px;
+}
+
+
+@media (max-width: 768px){
+
+	.person-page .name-architects-source {
+		text-align: justify;
+	}
+
+	.person-page.architects-info{
+		min-height: 320px;
+	}
+
+	.yers-life-architects .source-life,
+	.city-birth-architects .source-birth {
+		font-size: 1.1em;
+	}
+
+	.person-page .foto-architects {
+		text-align: center;
+		width: 50%;
+	}
+
+	.person-page .architects-info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.person-page .yers-life-architects,
+	.person-page .city-birth-architects {
+		margin: 0 0 10px 0;
+	    display: block;
+
+	}
+
+	.person-page .name-architects {
+		margin: 30px 0 20px 0;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 840px){
+	.person-page .source-foto {
+		width: 60%;
+	}
+}
+
+/* timeline */
+
+.person-page.timeline {
+	display: flex;
+    flex-direction: column;
+	margin: 0 auto;
+	position: relative;
+	padding: 20px;
+	height: 50vh;
+	background-color: #D6E3FF;
+	max-width: 1024px;
+}
+
+.person-page .timeline-container {
+	margin: 0 15px 15px 15px;
+	height: 100%;
+}
+
+@media (max-width: 768px){
+
+	.person-page .timeline-container {
+		margin: 0 5px 5px 5px;
+		height: 100%;
+	}
+
+}
+
+/* jobs */
+
+.person-page.jobs{
+	display: flex;
+	flex-direction: column;
+	max-width: 1024px;
+	padding: 20px;
+	margin: 0 auto;
+	position: relative;
+	color: #414a4f;
+	background-color: #EDEDED;
+}
+
+.person-page .name-works-list{
+	padding: 0px 0 15px 40px;
+	margin: 0 30px;
+	font-size: 1.2em;
+
+}
+
+
+@media (max-width: 1000px){
+
+
+}
+
+
+@media (max-width: 600px){
+
+
+}
+
+.about-me{
+	background-color: #fff;
+}
+
+.about-me .quote{
+	text-align: justify;
+    width: 95%;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+	margin: auto;
+	padding: 35px 0;
+}
+
+.about-me .author{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.about-me .author:last-child{
+    margin-bottom: 0;
+}
+
+.about-me .grid li{
+    padding: 20px;
+    border-radius: 3px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+	background-color: #f7f7f7;
+}
+
+.about-me .grid li.small {
+    flex-basis: 30%;
+}
+
+.about-me .grid li.large {
+	flex-basis: 70%;
+}
+
+.link-github{
+	font-weight: 600;
+	color: blue;
+}
+
+.link-github:hover{
+	color: rgb(255, 0, 34);
+	text-decoration: underline;
+}
+
+@media (max-width: 1000px){
+
+	.about-me .quote{
+		font-size: 20px;
+	}
+
+	.about-me .author{
+	    font-size: 16px;
+	}
+
+}
+
+.contact{
+	background-color: #f7f7f7;
+}
+
+.contact form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 800px;
+	width: 80%;
+}
+
+.contact form input{
+	padding: 15px;
+	flex: 1;
+	margin-right: 30px;
+	font-size: 18px;
+	color: #555;
+}
+
+.contact form .btn{
+	padding: 18px 42px;
+}
+
+
+/* @media (max-width: 800px){
+
+	.contact form input{
+		flex-basis: 100%;
+		margin: 0 0 20px 0;
+	}
+
+} */
+
+
+
+/* map */
+
+.person-page.map-box{
+	max-width: 1024px;
+	margin: 0 auto;
+}
