@@ -3,12 +3,12 @@ import i18n from 'i18next';
 import Main from '../pages/Main';
 import Architects from '../pages/Architects';
 import Architect from '../pages/Architect';
+import Header from './Header';
 import Loader from './Loader';
 import Footer from './Footer';
 import team from '../config/team';
 
 import '../styles/App.css';
-import Header from './Header';
 
 class App extends Component {
   constructor(props) {
@@ -69,7 +69,7 @@ class App extends Component {
 
     let page;
     if (isLoading) {
-      page = <Loading />
+      page = <Loader />;
     } else {
       switch (currentPage) {
         case 'Architects': {
@@ -84,7 +84,7 @@ class App extends Component {
           page = <Main team={team} lang={lang} data={data} />;
       }
     }
-    
+
     return (
       <>
         <Header
