@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Trans } from 'react-i18next';
 
 class NavbarButton extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class NavbarButton extends Component {
     const { page } = this.props;
 
     return (
-      <button type="button" onClick={this.selectPageHandler}>{page}</button>
+      <button type="button" onClick={this.selectPageHandler}><Trans>{page}</Trans></button>
     );
   }
 }

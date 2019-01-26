@@ -3,6 +3,8 @@
     "translation": {
       "MainPage": "Main Page",
       "SiteName": "Architects of Belarus",
+      "Main": "Main",
+      "Architects": "Architects",
       "Dzmitry Tsebruk": "Dzmitry Tsebruk",
       "Aleh Serhiyenia": "Aleh Serhiyenia",
       "Dzianis Hancharou": "Dzianis Hancharou",
@@ -14,6 +16,8 @@
     "translation": {
       "MainPage": "Главная страница",
       "SiteName": "Архитекторы Баларуси",
+      "Main": "Главная",
+      "Architects": "Архитекторы",
       "Dzmitry Tsebruk": "Дмитрий Цебрук",
       "Aleh Serhiyenia": "Олег Сергиеня",
       "Dzianis Hancharou": "Денис Гончаров",
@@ -23,8 +27,10 @@
   },
   "by": {
     "translation": {
-      "MainPage": "Галоуная старонка",
+      "MainPage": "Галоўная старонка",
       "SiteName": "Архітэкраты Беларусі",
+      "Main": "Галоўная",
+      "Architects": "Архітэкраты",
       "Dzmitry Tsebruk": "Дзмітрый Цэбрук",
       "Aleh Serhiyenia": "Алег Сергіеня",
       "Dzianis Hancharou": "Дзяніс Ганчароў",
