@@ -2,6 +2,7 @@
   "en": {
     "translation": {
       "MainPage": "Main Page",
+      "SiteDescription": "This is a portal about Belarussian architects. It is made by Awesome Random Party.",
       "Dzmitry Tsebruk": "Dzmitry Tsebruk",
       "Aleh Serhiyenia": "Aleh Serhiyenia",
       "Dzianis Hancharou": "Dzianis Hancharou",
@@ -12,6 +13,7 @@
   "ru": {
     "translation": {
       "MainPage": "Главная страница",
+      "SiteDescription": "Это портал о белорусских архитекторах. Он был сделан командой Awesome Random Party.",
       "Dzmitry Tsebruk": "Дмитрий Цебрук",
       "Aleh Serhiyenia": "Олег Сергиеня",
       "Dzianis Hancharou": "Денис Гончаров",
@@ -22,6 +24,7 @@
   "by": {
     "translation": {
       "MainPage": "Галоуная старонка",
+      "SiteDescription": "Гэта партал пра беларускіх архітэктараў. Ён быў зроблены камандай Awesome Random Party.",
       "Dzmitry Tsebruk": "Дзмітрый Цэбрук",
       "Aleh Serhiyenia": "Алег Сергіеня",
       "Dzianis Hancharou": "Дзяніс Ганчароў",
