@@ -17,7 +17,6 @@ class Main extends Component {
 
     return (
       <>
-        <h1><Trans>MainPage</Trans></h1>
         <Description />
         <h2><Trans>ArchitectOfTheDay</Trans></h2>
         <ArchitectShortInfo person={person} />
