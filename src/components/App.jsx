@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import i18n from 'i18next';
 import Main from '../pages/Main';
-import LangSwitcher from './LangSwitcher';
 import Loader from './Loader';
 import Footer from './Footer';
 import team from '../config/team';
@@ -63,7 +62,9 @@ class App extends Component {
   }
 
   render() {
-    const { lang, data, isLoading, currentPage } = this.state;
+    const {
+      lang, data, isLoading, currentPage,
+    } = this.state;
 
     let page;
     switch (currentPage) {
@@ -72,7 +73,7 @@ class App extends Component {
         break;
       }
       default:
-        <Main team={team} lang={lang} data={data} />
+        page = <Main team={team} lang={lang} data={data} />;
     }
 
     return (
@@ -80,11 +81,11 @@ class App extends Component {
         <Header
           selectLangHandler={this.selectLangHandler}
           selectPageHandler={this.selectPageHandler}
-        />        
+        />
         {
           isLoading
             ? <Loader />
-            : {page}
+            : page
         }
         <Footer />
       </>
