@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import i18n from 'i18next';
 import Main from '../pages/Main';
 import LangSwitcher from './LangSwitcher';
+import Footer from './Footer';
 import team from '../config/team';
 
 import '../styles/App.css';
@@ -36,6 +37,7 @@ class App extends Component {
       <>
         <LangSwitcher onClick={this.selectLangHandler} />
         <Main team={team} lang={lang} />
+        <Footer />
       </>
     );
   }
