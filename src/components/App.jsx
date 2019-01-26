@@ -1,46 +1,42 @@
 import React, { Component } from 'react';
+import i18n from 'i18next';
 import Main from '../pages/Main';
-
-import mikhamaAvatar from '../images/team/mikhama.jpg';
-import Pulya10cAvatar from '../images/team/Pulya10c.jpg';
-import haspadarZPadMenskuAvatar from '../images/team/haspadarZ-padMensku.jpg';
-import OlgaNaranovichAvatar from '../images/team/OlgaNaranovich.png';
-import Kirill82Avatar from '../images/team/Kirill82.jpg';
+import LangSwitcher from './LangSwitcher';
+import team from '../config/team';
 
 import '../styles/App.css';
 
-const TEAM = [
-  {
-    github: 'mikhama',
-    name: 'Dzmitry Tsebruk',
-    avatar: mikhamaAvatar,
-  },
-  {
-    github: 'Pulya10c',
-    name: 'Aleh Serhiyenia',
-    avatar: Pulya10cAvatar,
-  },
-  {
-    github: 'haspadarZ-padMensku',
-    name: 'Dzianis Hancharou',
-    avatar: haspadarZPadMenskuAvatar,
-  },
-  {
-    github: 'OlgaNaranovich',
-    name: 'Volha Naranovich',
-    avatar: OlgaNaranovichAvatar,
-  },
-  {
-    github: 'Kirill82',
-    name: 'Kiryl Horbikau',
-    avatar: Kirill82Avatar,
-  },
-];
-
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.selectLangHandler = this.selectLangHandler.bind(this);
+
+    const lang = localStorage.getItem('lang');
+
+    this.state = {
+      lang,
+    };
+  }
+
+  selectLangHandler(lang) {
+    i18n.changeLanguage(lang);
+
+    this.setState({
+      lang,
+    });
+
+    localStorage.setItem('lang', lang);
+  }
+
   render() {
+    const { lang } = this.state;
+
     return (
-      <Main team={TEAM} />
+      <>
+        <LangSwitcher onClick={this.selectLangHandler} />
+        <Main team={team} lang={lang} />
+      </>
     );
   }
 }

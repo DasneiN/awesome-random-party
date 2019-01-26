@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Trans } from 'react-i18next';
 
 class TeamMember extends Component {
   render() {
@@ -7,7 +8,7 @@ class TeamMember extends Component {
     return (
       <div className="team-member">
         <img src={avatar} alt={`${name}'s avatar`} width="100" height="100" />
-        <span>{name}</span>
+        <span><Trans>{name}</Trans></span>
         <a href={`https://github.com/${github}`}>{github}</a>
       </div>
     );

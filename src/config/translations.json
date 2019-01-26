@@ -1,0 +1,32 @@
+{
+  "en": {
+    "translation": {
+      "MainPage": "Main Page",
+      "Dzmitry Tsebruk": "Dzmitry Tsebruk",
+      "Aleh Serhiyenia": "Aleh Serhiyenia",
+      "Dzianis Hancharou": "Dzianis Hancharou",
+      "Volha Naranovich": "Volha Naranovich",
+      "Kiryl Horbikau": "Kiryl Horbikau"
+    }
+  },
+  "ru": {
+    "translation": {
+      "MainPage": "Главная страница",
+      "Dzmitry Tsebruk": "Дмитрий Цебрук",
+      "Aleh Serhiyenia": "Олег Сергиеня",
+      "Dzianis Hancharou": "Денис Гончаров",
+      "Volha Naranovich": "Ольга Наранович",
+      "Kiryl Horbikau": "Кирилл Горбиков"
+    }
+  },
+  "by": {
+    "translation": {
+      "MainPage": "Галоуная старонка",
+      "Dzmitry Tsebruk": "Дзмітрый Цэбрук",
+      "Aleh Serhiyenia": "Алег Сергіеня",
+      "Dzianis Hancharou": "Дзяніс Ганчароў",
+      "Volha Naranovich": "Вольга Нарановіч",
+      "Kiryl Horbikau": "Кірыл Горбікаў"
+    }
+  }
+}
