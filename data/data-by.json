@@ -454,6 +454,82 @@
 			"nameMap": "Месца нараджэння",
 			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112297.90132670439!2d39.73089974459434!3d59.21709576637307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ae9822674da109%3A0x6dbb1a40acc55b31!2z0JLQvtC70L7Qs9C00LAsINCS0L7Qu9C-0LPQvtC00YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sby!4v1548423289180"
 		}
-	}
+	},
+  {
+    "general":{
+      "nameArchitect": "Карака, Віктар Іванавіч",
+      "information": "Беларускі архітэктар, член праўлення Беларускага саюза архітэктараў, лаўрэат прэміі Ленінскага Камсамола Беларусі, кіраўнік творчай майстэрні.",
+      "fotoArchitect": "https://dic.academic.ru/pictures/wiki/files/75/Karako_Victor.jpg",
+      "dateBirth": "29 ліпеня 1948",
+			"dateDeath": "",
+			"сityBirth": "горад Гродна, Беларуская ССР",
+			"countryBirth": "СССР"
+    },
+    "biography": [
+      {
+        "period": "1966—1972",
+        "information": "Беларускі Політэхнічны Інстытут, кафедра архітэктуры."
+      },
+      {
+        "period": "1972—1976, 1982—1998",
+        "information": "«Белдзяржпраект». Архітэктар, старшы архітэктар, галоўны архітэктар праектаў, кіраўнік майстэрні."
+      },
+      {
+        "period": "1976—1982",
+        "information": "БелНИИПградостроительства. Кіраўнік групы архітэктараў, галоўны архітэктар праектаў, кіраўнік майстэрні."
+      },
+      {
+        "period": "1982",
+        "information": "Лаўрэат Прэміі Ленінскага Камсамола Беларусі ў галіне архітэктуры за праект палаца моладзі ў г. Наваполацк."
+      },
+      {
+        "period": "1998-...",
+        "information": "Ўласная творчая майстэрня."
+      },
+      {
+        "period": "2003-...",
+        "information": "Выкладае праектаванне на архітэктурным факультэце Беларускага Нацыянальнага Тэхнічнага Універсітэта."
+      },
+      {
+        "period": "2005-...",
+        "information": "З'яўляецца членам праўлення Беларускага Саюза архітэктараў."
+      }
+    ],
+    "mainWorks": [
+      {
+        "nameWorks": "Асноўныя працы",
+        "list": [
+          "Судзейскі домік на гоначным кольцы Баравая",
+          "Моладзевы цэнтр у г. Наваполацк",
+          "Рэканструкцыя школы 4 у г. Мінск",
+          "Прафілакторый КДБ і Савета Міністраў на возеры Вяча",
+          "Будынак МУС па вул. Апанскага ў г. Мінск",
+          "Кветкавы магазін у Мінску",
+          "Рэканструкцыя будынка банка па вуліцы Заслаўскай, 10"
+        ]
+			}
+    ],
+    "fotoUrl": [
+       "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#/media/File:%D0%A1%D1%83%D0%B4%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%BE%D0%BC%D0%B8%D0%BA.jpg",
+       "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#/media/File:DK_Novopolotsk.jpg",
+       "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#/media/File:School_4_Minsk.jpg",
+       "",
+       "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#/media/File:%D0%9C%D0%92%D0%94_333.jpg",
+       "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#/media/File:Flower_shop_Minsk.jpg",
+       "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#/media/File:%D0%91%D0%B5%D0%BB%D0%92%D0%AD%D0%91.jpg"
+    ],
+    "videoUrl": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+		],
+    "mapSrc": {
+			"nameMap": "Месца нараджэння",
+			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112297.90132670439!2d39.73089974459434!3d59.21709576637307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ae9822674da109%3A0x6dbb1a40acc55b31!2z0JLQvtC70L7Qs9C00LAsINCS0L7Qu9C-0LPQvtC00YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sby!4v1548423289180"
+		}
+  }
   
 ]
