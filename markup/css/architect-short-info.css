@@ -1,0 +1,26 @@
+.architect-short-info {
+	/*margin-bottom: 30px;*/
+}
+.architect-short-info__content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.architect-short-info__button {
+	display: inherit;
+	-ms-align-self: center;
+	align-self: center;
+}
+.architect-short-info__button:after {
+	content: "";
+	width: 60px;
+	height: 60px;
+	border-right: 1px solid #c8c8c8;
+	border-top: 1px solid #c8c8c8;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
