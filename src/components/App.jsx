@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import i18n from 'i18next';
 import Main from '../pages/Main';
+import Architects from '../pages/Architects';
+import Architect from '../pages/Architect';
 import Loader from './Loader';
 import Footer from './Footer';
 import team from '../config/team';
@@ -23,7 +25,6 @@ class App extends Component {
       isLoading: true,
     };
   }
-
 
   async componentDidMount() {
     const { lang } = this.state;
@@ -67,26 +68,30 @@ class App extends Component {
     } = this.state;
 
     let page;
-    switch (currentPage) {
-      case 'Architects': {
-        page = <div>Here must be Architects page</div>;
-        break;
+    if (isLoading) {
+      page = <Loading />
+    } else {
+      switch (currentPage) {
+        case 'Architects': {
+          page = <Architects data={data} />;
+          break;
+        }
+        case 'Architect': {
+          page = <Architect person={data[2]} />;
+          break;
+        }
+        default:
+          page = <Main team={team} lang={lang} data={data} />;
       }
-      default:
-        page = <Main team={team} lang={lang} data={data} />;
     }
-
+    
     return (
       <>
         <Header
           selectLangHandler={this.selectLangHandler}
           selectPageHandler={this.selectPageHandler}
         />
-        {
-          isLoading
-            ? <Loader />
-            : page
-        }
+        {page}
         <Footer />
       </>
     );
