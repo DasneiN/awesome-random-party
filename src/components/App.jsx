@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import i18n from 'i18next';
 import Main from '../pages/Main';
+import LangSwitcher from './LangSwitcher';
+import Loader from './Loader';
+import Footer from './Footer';
 import team from '../config/team';
 
 import '../styles/App.css';
@@ -18,7 +21,28 @@ class App extends Component {
     this.state = {
       lang,
       currentPage: 'Main',
+      isLoading: true,
     };
+  }
+
+
+  async componentDidMount() {
+    const { lang } = this.state;
+
+    this.loadData(lang);
+  }
+
+  async loadData(lang) {
+    this.setState({
+      isLoading: true,
+    });
+
+    const data = await fetch(`./data/data-${lang}.json`);
+
+    this.setState({
+      data: await data.json(),
+      isLoading: false,
+    });
   }
 
   selectLangHandler(lang) {
@@ -29,6 +53,7 @@ class App extends Component {
     });
 
     localStorage.setItem('lang', lang);
+    this.loadData(lang);
   }
 
   selectPageHandler(currentPage) {
@@ -38,7 +63,7 @@ class App extends Component {
   }
 
   render() {
-    const { lang, currentPage } = this.state;
+    const { lang, data, isLoading, currentPage } = this.state;
 
     let page;
     switch (currentPage) {
@@ -47,7 +72,7 @@ class App extends Component {
         break;
       }
       default:
-        page = <Main team={team} lang={lang} />;
+        <Main team={team} lang={lang} data={data} />
     }
 
     return (
@@ -55,8 +80,13 @@ class App extends Component {
         <Header
           selectLangHandler={this.selectLangHandler}
           selectPageHandler={this.selectPageHandler}
-        />
-        {page}
+        />        
+        {
+          isLoading
+            ? <Loader />
+            : {page}
+        }
+        <Footer />
       </>
     );
   }
