@@ -12,7 +12,7 @@ html{
 
 li{
 	list-style: none;
-
+    margin-bottom: 5px;
 }
 
 a{
@@ -98,13 +98,22 @@ section h2{
 }
 
 @media (max-width: 768px){
-	header{
-		flex-direction: column;		
+	
+	section h3.title{
+		color: #414a4f;
+		font: bold 1.2em 'Open Sans', sans-serif;
+		margin-bottom: 10px;
+		text-align: left;
 	}
 
-	header h2{
-		margin-bottom: 15px;
+	section h2{
+		text-align: left;
+		margin: 0 0 10px 10px;
+		font: bold 1.1em 'Open Sans', sans-serif;
 	}
+
+
+
 }
 
 /* architects-info */
@@ -228,6 +237,10 @@ section h2{
 		text-align: center;
 	}
 
+	.person-page .inform-architects {
+		margin: 0 0 10px 0;
+	}
+
 }
 
 @media (max-width: 840px){
@@ -290,9 +303,55 @@ section h2{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 768px){
 
+	.person-page .name-works-list{
+		padding: 0px 0 10px 5px;
+		margin: 0 20px;
+		font-size: 0.9em;
+	
+	}
+	
+}
 
+/* gallery */
+
+.person-page.gallery {
+	padding: 20px;
+    margin: 0 auto;
+    position: relative;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #D6E3FF;
+}
+
+.person-page .foto-works {
+	height: 100%;
+	width: 300px;
+	
+}
+
+/* video */
+
+.person-page.video {
+	padding: 20px;
+    margin: 0 auto;
+    position: relative;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #EDEDED;
+}
+
+.person-page .gallery-video {
+	display: flex;
+    justify-content: center;
+}
+
+.person-page .video {
+	flex: 1;
+	width: 230px;
+    margin: 5px;
+	
 }
 
 .about-me{
@@ -400,4 +459,14 @@ section h2{
 .person-page.map-box{
 	max-width: 1024px;
 	margin: 0 auto;
+	background-color: #D6E3FF;
+}
+
+
+@media (max-width: 768px){
+	.person-page.map-box{
+		max-width: 1024px;
+    	padding: 0 10px;
+	}
+
 }
