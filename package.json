@@ -52,6 +52,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-i18next": "^9.0.8",
-    "uniqid": "^5.0.3"
+    "uniqid": "^5.0.3",
+    "vertical-timeline-component-for-react": "^1.0.6"
   }
 }
