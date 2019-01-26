@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import i18n from 'i18next';
 import Main from '../pages/Main';
 import LangSwitcher from './LangSwitcher';
+import Loader from './Loader';
 import Footer from './Footer';
 import team from '../config/team';
 
@@ -17,7 +18,28 @@ class App extends Component {
 
     this.state = {
       lang,
+      isLoading: true,
     };
+  }
+
+
+  async componentDidMount() {
+    const { lang } = this.state;
+
+    this.loadData(lang);
+  }
+
+  async loadData(lang) {
+    this.setState({
+      isLoading: true,
+    });
+
+    const data = await fetch(`./data/data-${lang}.json`);
+
+    this.setState({
+      data: await data.json(),
+      isLoading: false,
+    });
   }
 
   selectLangHandler(lang) {
@@ -28,15 +50,20 @@ class App extends Component {
     });
 
     localStorage.setItem('lang', lang);
+    this.loadData(lang);
   }
 
   render() {
-    const { lang } = this.state;
+    const { lang, data, isLoading } = this.state;
 
     return (
       <>
         <LangSwitcher onClick={this.selectLangHandler} />
-        <Main team={team} lang={lang} />
+        {
+          isLoading
+            ? <Loader />
+            : <Main team={team} lang={lang} data={data} />
+        }
         <Footer />
       </>
     );

@@ -2,6 +2,8 @@
   "en": {
     "translation": {
       "MainPage": "Main Page",
+      "More": "More",
+      "ArchitectOfTheDay": "Architect of the day",
       "SiteDescription": "This is a portal about Belarussian architects. It is made by Awesome Random Party.",
       "Dzmitry Tsebruk": "Dzmitry Tsebruk",
       "Aleh Serhiyenia": "Aleh Serhiyenia",
@@ -13,6 +15,8 @@
   "ru": {
     "translation": {
       "MainPage": "Главная страница",
+      "More": "Подробнее",
+      "ArchitectOfTheDay": "Архитектор дня",
       "SiteDescription": "Это портал о белорусских архитекторах. Он был сделан командой Awesome Random Party.",
       "Dzmitry Tsebruk": "Дмитрий Цебрук",
       "Aleh Serhiyenia": "Олег Сергиеня",
@@ -24,6 +28,8 @@
   "by": {
     "translation": {
       "MainPage": "Галоуная старонка",
+      "More": "Больш падрабязна",
+      "ArchitectOfTheDay": "Архітэктар дня",
       "SiteDescription": "Гэта партал пра беларускіх архітэктараў. Ён быў зроблены камандай Awesome Random Party.",
       "Dzmitry Tsebruk": "Дзмітрый Цэбрук",
       "Aleh Serhiyenia": "Алег Сергіеня",
