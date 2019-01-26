@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import i18n from 'i18next';
 import Main from '../pages/Main';
+import Architects from '../pages/Architects';
 import LangSwitcher from './LangSwitcher';
 import Loader from './Loader';
 import Footer from './Footer';
@@ -56,13 +57,17 @@ class App extends Component {
   render() {
     const { lang, data, isLoading } = this.state;
 
+    let page;
+    page = <Main team={team} lang={lang} data={data} />;
+    page = <Architects data={data} />;
+
     return (
       <>
         <LangSwitcher onClick={this.selectLangHandler} />
         {
           isLoading
             ? <Loader />
-            : <Main team={team} lang={lang} data={data} />
+            : page
         }
         <Footer />
       </>
