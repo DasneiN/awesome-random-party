@@ -11,14 +11,14 @@ class ArchitectShortInfo extends Component {
   }
 
   render() {
-    const { person } = this.props;
+    const { person, onClick } = this.props;
 
     return (
       <div className="architect-short-info">
         <img src={person.general.fotoArchitect} alt={person.general.nameArchitect} width="100" height="100" />
         <h3>{person.general.nameArchitect}</h3>
         <p>{ArchitectShortInfo.cutInfo(person.general.information, 100)}</p>
-        <button type="button"><Trans>More</Trans></button>
+        <button type="button" onClick={() => onClick(person)}><Trans>More</Trans></button>
       </div>
     );
   }

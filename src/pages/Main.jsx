@@ -12,14 +12,14 @@ class Main extends Component {
   }
 
   render() {
-    const { team, data } = this.props;
+    const { team, data, getPersonToShow } = this.props;
     const person = Main.getRandomPerson(data);
 
     return (
       <>
         <Description />
         <h2><Trans>ArchitectOfTheDay</Trans></h2>
-        <ArchitectShortInfo person={person} />
+        <ArchitectShortInfo person={person} onClick={getPersonToShow} />
         <Team team={team} />
       </>
     );
