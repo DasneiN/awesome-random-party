@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
 import Team from '../components/Team';
+import Description from '../components/Description';
 
 class Main extends Component {
   render() {
@@ -9,6 +10,7 @@ class Main extends Component {
     return (
       <>
         <h1><Trans>MainPage</Trans></h1>
+        <Description />
         <Team team={team} />
       </>
     );
