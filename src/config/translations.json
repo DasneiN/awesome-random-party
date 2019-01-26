@@ -2,6 +2,9 @@
   "en": {
     "translation": {
       "MainPage": "Main Page",
+      "SiteName": "Architects of Belarus",
+      "Main": "Main",
+      "Architects": "Architects",
       "More": "More",
       "ArchitectOfTheDay": "Architect of the day",
       "SiteDescription": "This is a portal about Belarussian architects. It is made by Awesome Random Party.",
@@ -15,6 +18,9 @@
   "ru": {
     "translation": {
       "MainPage": "Главная страница",
+      "SiteName": "Архитекторы Беларуси",
+      "Main": "Главная",
+      "Architects": "Архитекторы",
       "More": "Подробнее",
       "ArchitectOfTheDay": "Архитектор дня",
       "SiteDescription": "Это портал о белорусских архитекторах. Он был сделан командой Awesome Random Party.",
@@ -27,6 +33,10 @@
   },
   "by": {
     "translation": {
+      "MainPage": "Галоўная старонка",
+      "SiteName": "Архітэкраты Беларусі",
+      "Main": "Галоўная",
+      "Architects": "Архітэкраты",
       "MainPage": "Галоуная старонка",
       "More": "Больш падрабязна",
       "ArchitectOfTheDay": "Архітэктар дня",

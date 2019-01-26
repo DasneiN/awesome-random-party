@@ -7,17 +7,20 @@ import Footer from './Footer';
 import team from '../config/team';
 
 import '../styles/App.css';
+import Header from './Header';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.selectLangHandler = this.selectLangHandler.bind(this);
+    this.selectPageHandler = this.selectPageHandler.bind(this);
 
     const lang = localStorage.getItem('lang');
 
     this.state = {
       lang,
+      currentPage: 'Main',
       isLoading: true,
     };
   }
@@ -53,16 +56,35 @@ class App extends Component {
     this.loadData(lang);
   }
 
+  selectPageHandler(currentPage) {
+    this.setState({
+      currentPage,
+    });
+  }
+
   render() {
-    const { lang, data, isLoading } = this.state;
+    const { lang, data, isLoading, currentPage } = this.state;
+
+    let page;
+    switch (currentPage) {
+      case 'Architects': {
+        page = <div>Here must be Architects page</div>;
+        break;
+      }
+      default:
+        <Main team={team} lang={lang} data={data} />
+    }
 
     return (
       <>
-        <LangSwitcher onClick={this.selectLangHandler} />
+        <Header
+          selectLangHandler={this.selectLangHandler}
+          selectPageHandler={this.selectPageHandler}
+        />        
         {
           isLoading
             ? <Loader />
-            : <Main team={team} lang={lang} data={data} />
+            : {page}
         }
         <Footer />
       </>
