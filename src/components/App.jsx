@@ -3,6 +3,7 @@ import i18n from 'i18next';
 import Main from '../pages/Main';
 import LangSwitcher from './LangSwitcher';
 import Loader from './Loader';
+import Footer from './Footer';
 import team from '../config/team';
 
 import '../styles/App.css';
@@ -63,6 +64,7 @@ class App extends Component {
             ? <Loader />
             : <Main team={team} lang={lang} data={data} />
         }
+        <Footer />
       </>
     );
   }
