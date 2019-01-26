@@ -40,11 +40,14 @@ class App extends Component {
   render() {
     const { lang, currentPage } = this.state;
 
-    function renderCurrentPage() {
-      if (currentPage === 'Architects') {
-        return <div>Here must be Architects page</div>;
+    let page;
+    switch (currentPage) {
+      case 'Architects': {
+        page = <div>Here must be Architects page</div>;
+        break;
       }
-      return <Main team={team} lang={lang} />;
+      default:
+        page = <Main team={team} lang={lang} />;
     }
 
     return (
@@ -53,7 +56,7 @@ class App extends Component {
           selectLangHandler={this.selectLangHandler}
           selectPageHandler={this.selectPageHandler}
         />
-        {renderCurrentPage()}
+        {page}
       </>
     );
   }
