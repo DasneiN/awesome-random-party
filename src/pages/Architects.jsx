@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import uniqid from 'uniqid';
 import ArchitectShortInfo from '../components/ArchitectShortInfo';
 import Search from '../components/Search';
+import NotFound from '../components/NotFound';
 
 class Architects extends Component {
   constructor(props) {
@@ -49,19 +50,25 @@ class Architects extends Component {
 
     const architects = Architects.getFilteredArchitects(data, filter);
 
+    let searchResults;
+    if (architects.length > 0) {
+      searchResults = architects.map(architect => (
+        <ArchitectShortInfo
+          data={data}
+          key={uniqid()}
+          person={architect}
+          onClick={getPersonToShow}
+        />
+      ));
+    } else {
+      searchResults = <NotFound />;
+    }
+
+
     return (
       <main className="main">
         <Search onChange={this.inputTextHandler} />
-        {
-          architects.map(architect => (
-            <ArchitectShortInfo
-              data={data}
-              key={uniqid()}
-              person={architect}
-              onClick={getPersonToShow}
-            />
-          ))
-        }
+        {searchResults}
       </main>
     );
   }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
 
+import '../styles/search.css';
+
 class Search extends Component {
   constructor(props) {
     super(props);
@@ -17,9 +19,9 @@ class Search extends Component {
   render() {
     return (
       <div className="search">
-        <label htmlFor="search">
+        <label htmlFor="search" className="label search__label">
           <Trans>EnterPersonOrCity</Trans>
-          <input id="search" type="text" onChange={this.textInputHandler} />
+          <input className="input search__input" id="search" type="text" onChange={this.textInputHandler} />
         </label>
       </div>
     );
