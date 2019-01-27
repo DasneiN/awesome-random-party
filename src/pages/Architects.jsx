@@ -14,6 +14,10 @@ class Architects extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   static getFilteredArchitects(architects, filter) {
     if (filter.length === 0) return architects;
 
@@ -46,7 +50,7 @@ class Architects extends Component {
     const architects = Architects.getFilteredArchitects(data, filter);
 
     return (
-      <>
+      <main className="main">
         <Search onChange={this.inputTextHandler} />
         {
           architects.map(architect => (
@@ -57,7 +61,7 @@ class Architects extends Component {
             />
           ))
         }
-      </>
+      </main>
     );
   }
 }

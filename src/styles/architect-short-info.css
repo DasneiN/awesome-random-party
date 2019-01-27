@@ -1,0 +1,38 @@
+.architect-short-info__link {
+	text-decoration: none;
+}
+.architect-short-info__link:hover {
+	color: inherit;
+}
+.architect-short-info__content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.architect-short-info__description {
+	max-height: 120px;
+	overflow: hidden;
+  position: relative;
+  margin-bottom: 40px;
+}
+.architect-short-info__button {
+  background-color: #e4e4e4;
+  color: black;
+  font-weight: 700;
+  padding: 10px;
+  border-bottom: 4px solid rgb(187, 187, 187);
+}
+.architect-short-info__button:hover {
+  background-color: #f15858;
+  color: white;
+}
+.architect-short-info__button:active {
+  margin-top: 3px;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+.architect-short-info__more-info {
+	display: none;
+	margin: 10px 0;
+}

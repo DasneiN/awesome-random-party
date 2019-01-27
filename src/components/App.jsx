@@ -8,7 +8,8 @@ import Loader from './Loader';
 import Footer from './Footer';
 import team from '../config/team';
 
-import '../styles/App.css';
+import '../styles/base.css';
+import '../styles/media.css';
 
 class App extends Component {
   constructor(props) {
@@ -34,7 +35,6 @@ class App extends Component {
     this.loadData(lang);
   }
 
-  // Who will be shown on Architect page
   getPersonToShow(personToShow) {
     this.setState({
       personToShow,
@@ -42,7 +42,6 @@ class App extends Component {
 
     this.selectPageHandler('Architect');
   }
-  // Who will be shown on Architect page
 
   async loadData(lang) {
     this.setState({
@@ -114,10 +113,13 @@ class App extends Component {
     return (
       <>
         <Header
+          currentPage={currentPage}
           selectLangHandler={this.selectLangHandler}
           selectPageHandler={this.selectPageHandler}
         />
-        {page}
+        <div className="container">
+          {page}
+        </div>
         <Footer />
       </>
     );

@@ -24,13 +24,6 @@ a {
 a:hover {
 	color: #f15858;
 }
-
-// TODO: check it
-input:focus, input:hover, input:active {
-	outline: none;
-}
-// TODO: check it
-
 p {
 	margin: 10px 0;
 }
@@ -75,4 +68,16 @@ body {
 	-ms-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
+}
+
+.main {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  flex: 1 0 auto;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }

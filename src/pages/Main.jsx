@@ -11,17 +11,21 @@ class Main extends Component {
     return persons[randomIndex];
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const { team, data, getPersonToShow } = this.props;
     const person = Main.getRandomPerson(data);
 
     return (
-      <>
+      <main className="main">
         <Description />
-        <h2><Trans>ArchitectOfTheDay</Trans></h2>
+        <h2 className="h2"><Trans>ArchitectOfTheDay</Trans></h2>
         <ArchitectShortInfo person={person} onClick={getPersonToShow} />
         <Team team={team} />
-      </>
+      </main>
     );
   }
 }

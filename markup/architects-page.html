@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Архитекторы Беларуси</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/search.css">
+	<link rel="stylesheet" href="css/architect-short-info.css">
+	<link rel="stylesheet" href="css/not-found.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="container header-container">
+				<h1 class="h1">Архитекторы Беларуси</h1>
+				<div class="header__content">
+					<nav class="header__nav nav">
+						<button class="button nav__button nav__button_active">Главная</button>
+						<button class="nav__button button">Архитекторы</button>
+					</nav>
+					<div class="header__language">
+						<button class="button button_language button_language_rus"><img src="img/Rus-Flag-icon.png" alt=""><span>rus</span></button>
+						<button class="button button_language button_language_bel"><img src="img/Bel-Flag-icon.png" alt=""><span>bel</span></button>
+						<button class="button button_language button_language_eng"><img src="img/UK-Flag-icon.png" alt=""><span>eng</span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+
+      <!-- We need only these lines -->
+			<div class="search">
+				<label for="search" class="label search__label">Введите имя архитектора или город его рождения</label>
+				<input type="text" placeholder="" class="input search__input" id="search">
+			</div>
+
+			<section class="not-found section">
+				<div class="not-found__text">
+					<p>По Вашему запросу ничего ненайдено</p>
+				</div>
+      </section>
+      <!-- We need only these lines -->
+
+		</main>
+		<footer class="footer">
+			<div class="footer-container container">
+				<span class="footer__creator">awesome-random-party</span>
+				<span class="footer_corypight">copyright © 2019</span>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
