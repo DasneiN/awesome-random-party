@@ -1,5 +1,5 @@
 .search {
-	margin-top: 180px;
+	margin-top: 30px;
 	width: 98%;
 	position: relative;
 }
@@ -42,4 +42,5 @@
 	color: transparent
 }
 .search__input:focus:-ms-input-placeholder {
-	color: transparent}
+  color: transparent
+}
