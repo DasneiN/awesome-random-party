@@ -12,16 +12,16 @@ class Architect extends Component {
   }
 
   render() {
-    const { person } = this.props;
+    const { data, indexPersonToShow } = this.props;
 
     return (
       <main className="main">
-        <ArchitectInfo person={person} />
-        <TimelineBio person={person} />
-        <Jobs person={person} />
-        <Video person={person} />
-        <Gallery person={person} />
-        <Map person={person} />
+        <ArchitectInfo person={data[indexPersonToShow]} />
+        <TimelineBio person={data[indexPersonToShow]} />
+        <Jobs person={data[indexPersonToShow]} />
+        <Video person={data[indexPersonToShow]} />
+        <Gallery person={data[indexPersonToShow]} />
+        <Map person={data[indexPersonToShow]} />
       </main>
     );
   }
