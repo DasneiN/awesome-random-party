@@ -8,14 +8,12 @@ class Jobs extends Component {
     const { person } = this.props;
 
     return (
-      <>
-        <h3><Trans>Works</Trans></h3>
-        <div>
-          {person.mainWorks.map(section => (
-            <JobsSection key={uniqid()} section={section} />
-          ))}
-        </div>
-      </>
+      <section id="jobs" className="person-page jobs">
+        <h3 className="jobs-title"><Trans>Works</Trans></h3>
+        {person.mainWorks.map(section => (
+          <JobsSection key={uniqid()} section={section} />
+        ))}
+      </section>
     );
   }
 }
