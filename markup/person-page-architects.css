@@ -1,16 +1,17 @@
 /* general */
-*{
+/* *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
+} */
+/* 
 html{
 	font: normal 16px sans-serif;
 	color: #414a4f;
-}
+} */
 
-a{
+button {
+
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
@@ -18,10 +19,10 @@ a{
 	opacity: 0.9;
 }
 
-a:hover{
+button:hover{
 	opacity: 1;
 }
-
+/* 
 a.btn{
 	color: #fff;
 	border-radius: 35px;
@@ -29,15 +30,15 @@ a.btn{
 	background-color: #2196F3;
 	font-weight: 800;
 	text-align: center;
-}
+} */
 
-hr{
+/* hr{
 	width: 150px;
 	height: 2px;
 	background-color: #2196F3;
 	border: 0;
 	margin-bottom: 80px;
-}
+} */
 /* 
 section {
 	display: flex;
@@ -46,18 +47,18 @@ section {
 
 	padding: 25px 0px;
 } */
-
+/* 
 .maps {
     width: 100%;
     height: 200px;
-}
+} */
 
 span.headlines {
 	font-weight: 600;
     font-size: 1.1em;
     flex: 1;
 }
-
+/* 
 @media (max-width: 768px){
 
 	section{
@@ -72,7 +73,7 @@ span.headlines {
 		padding: 50px 40px;
 	}
 
-}
+} */
 
 section h3.title{
 	color: #414a4f;
@@ -84,12 +85,6 @@ section h3.title{
 section h2{
 	text-align: left;
     margin: 0 0 10px 25px;
-}
-
-@media (max-width: 1000px){
-	header{
-		padding: 20px 50px;
-	}
 }
 
 @media (max-width: 768px){
@@ -112,7 +107,7 @@ section h2{
 }
 
 /* architects-info */
-
+/* 
 .person-page.architects-info{
 	display: flex;
 	flex-direction: column;
@@ -120,6 +115,7 @@ section h2{
 	padding: 40px 25px 35px 40px;
 	position: relative;
 	color: #414a4f;
+	font: normal 16px sans-serif;
 	justify-content: center;
 	background-color: #87C6FF;
 	
@@ -242,11 +238,11 @@ section h2{
 	.person-page .source-foto {
 		width: 60%;
 	}
-}
+} */
 
 /* timeline */
 
-.person-page.timeline {
+/* .person-page.timeline {
 	display: flex;
     flex-direction: column;
 	margin: 0 auto;
@@ -269,11 +265,11 @@ section h2{
 		height: 100%;
 	}
 
-}
+} */
 
 /* jobs */
 
-.person-page.jobs{
+/* .person-page.jobs{
 	display: flex;
 	flex-direction: column;
 	max-width: 1024px;
@@ -312,10 +308,10 @@ section h2{
 	
 	}
 	
-}
+} */
 
 /* gallery */
-
+/* 
 .person-page.gallery {
 	padding: 20px;
     margin: 0 auto;
@@ -340,10 +336,10 @@ section h2{
 	overflow: hidden;
 	display: flex;
 }
-
+ */
 
 /* video */
-
+/* 
 .person-page.video {
 	padding: 20px;
     margin: 0 auto;
@@ -363,11 +359,11 @@ section h2{
 	width: 230px;
     margin: 5px;
 	
-}
+} */
 
 
 /* map */
-
+/* 
 .person-page.map-box{
 	max-width: 1024px;
 	margin: 0 auto;
@@ -381,10 +377,10 @@ section h2{
     	padding: 0 10px;
 	}
 
-}
+} */
 
 /* carusel */
-.carousel-container {
+/* .carousel-container {
 	list-style-type: none;
 	padding: 0;
 	margin: 30px auto;
@@ -521,5 +517,5 @@ section h2{
 		margin-right: 4px;
 	}
 
-}
+} */
   
