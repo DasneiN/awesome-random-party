@@ -14,6 +14,10 @@ class Architects extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   static getFilteredArchitects(architects, filter) {
     if (filter.length === 0) return architects;
 

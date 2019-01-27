@@ -5,6 +5,10 @@ import Video from '../components/Video';
 import Gallery from '../components/Gallery';
 
 class Architect extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const { person } = this.props;
 

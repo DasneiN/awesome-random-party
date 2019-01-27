@@ -11,6 +11,10 @@ class Main extends Component {
     return persons[randomIndex];
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const { team, data, getPersonToShow } = this.props;
     const person = Main.getRandomPerson(data);
