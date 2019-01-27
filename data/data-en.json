@@ -616,5 +616,81 @@
 			"nameMap": "Place of Birth",
 			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112297.90132670439!2d39.73089974459434!3d59.21709576637307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ae9822674da109%3A0x6dbb1a40acc55b31!2z0JLQvtC70L7Qs9C00LAsINCS0L7Qu9C-0LPQvtC00YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sby!4v1548423289180"
 		}
-	}
+  },
+  {
+    "general":{
+      "nameArchitect": "George Zaborsky",
+      "information": "National Architect of the USSR (1981), Honored Builder of Belarus, Academician of the Russian Academy of Architecture and Construction Sciences, Academician of the Belarusian Academy of Architecture, winner of the USSR State Prize (1971).",
+      "fotoArchitect": "http://rntbcat.org.by/belnames/F_HTM/Zaborskij.files/image004.jpg",
+      "dateBirth": "November 11, 1909",
+			"dateDeath": "March 27, 1999",
+			"сityBirth": "Minsk",
+			"countryBirth": "Russian empire"
+    },
+    "biography": [
+      {
+        "period": "1929-1939",
+        "information": "After graduating from school in 1929, G. Zaborsky became a worker at the stadium. After working there for a year, he entered the Minsk Vocational School of peasant refractory construction. The first practice of G. Zaborsky was held on the construction site of the Government House. Here he met with the architect I. Langbard. After graduating, George Zaborsky was sent to the All-Russian Academy of Arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munts, A. Nikolsky and others."
+      },
+      {
+        "period": "1939—1941",
+        "information": "After graduating from the Academy of Arts in 1939, G. Zaborsky entered the competition in Moscow, but he did not work there for long and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesye regions. In the same year, he participated in the republican competition for the best project of a monument for the city of Bialystok in honor of the reunification of Western Belarus. His project was recognized as the best, but the construction was prevented by the Great Patriotic War."
+      },
+      {
+        "period": "1941—1944",
+        "information": "Already in the first days of the war he went to the front as a volunteer, but in the battles near Smolensk he was seriously wounded and ended up in the hospital of the Ural town of Troitsk, where he completed a number of projects-sketches of monuments dedicated to the heroic victory of the Soviet people in the Great Patriotic War, which became the basis of the future monument- Victory Monument in Minsk."
+      },
+      {
+        "period": "1944-1950",
+        "information": "After the war he returned to Belarus and actively participated in the work of reviving the destroyed cities and villages. From 1945 to 1964, George Zaborsky led the architectural design workshops of design institutes Belgosproekt and Minskproekt and at the same time taught at the architectural department of the Belarusian Polytechnic Institute (now the Belarusian National Technical University). He takes an active part in the development of projects for the planning and development of Minsk, Polotsk, Orsha. Georgy Zaborsky takes part in the design of Minsk areas: Lenin (Independence), Central (October), Round (Victory)."
+      },
+      {
+        "period": "1950-1960",
+        "information": "In 1950, engaged in the design of residential buildings on the street. Lenin in Minsk. At the same time, he created the Suvorov School and the building of the Central Committee of the Young Communist Youth Union. In 1952, according to his project, a monument was opened. V. Stalin, and in 1954 - a monument-monument on the square. Victory. In 1952, Georgiy Vladimirovich designed the house for the family of J. Kolas. After the death of the poet, Zaborsky took part in the creation of a monument on his grave, and after a while a monument on Y. Kolas Square in Minsk."
+      },
+      {
+        "period": "1960-1990",
+        "information": "In the early 60s. the architect’s designs have built the Pioneer cinema and the Museum of the Great Patriotic War. At the same time, Georgy Vladimirovich is designing a memorial complex Zislov, the opening of which took place in 1969. In March 1964. on a personal request he moved to the design institute Belgiproselstroy. He made a great creative contribution to the creation of the modern look of the Belarusian village. The main projects of this time were the social center of the village. Mishkovichi, Kirovsky district, building the collective farm Red Change Lyuban district, building village. Vertelishki - the center of the collective farm Progress of the Grodno region, for which he received the State Prize of the USSR in 1971. He finished his practical creative work in the early 1990s One of his last works was the project of a monument to victims of mass repressions in Kurapaty near Minsk."
+      },
+      {
+        "period": "March 27, 1999",
+        "information": "He died in the city of Minsk."
+      }
+    ],
+    "mainWorks": [
+      {
+        "nameWorks": "Main works",
+        "list": [
+          "Victory Monument in Minsk",
+          "Lenin Square (Independence)",
+          "Central Square (October)",
+          "Round Square (Victory).",
+          "Residential building on the street. Lenin in Minsk.",
+          "Suvorov School in Minsk",
+          "The building of the Central Committee LKSMB"
+        ]
+			}
+    ],
+    "fotoUrl": [
+       "http://minsk-old-new.com/Image/monument/memorial_victory_22-1.jpg",
+       "https://minsk-old-new.com/Image/ploshad/nezavisimosti/1982C.jpg",
+       "https://s3-eu-west-1.amazonaws.com/media.agentika.com/user/03aeeee9-20e3-4cf9-8354-484b4783c026.jpeg",
+       "http://minsk-old-new.com/Image/monument/memorial_victory_22-1.jpg",
+       "https://34travel.me/media/upload/images/2015/november/minsk/minsk_10.jpg",
+       "https://kudapostupat.by/images/thumb/art_409_orig.jpg",
+       "https://minsk-old-new.com/assets/images/Image/streets/krasnoarmeyskaya/krasnoarmeyskaya-024.jpg"
+    ],
+    "videoUrl": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+		],
+    "mapSrc": {
+			"nameMap": "Place of Birth",
+			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112297.90132670439!2d39.73089974459434!3d59.21709576637307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ae9822674da109%3A0x6dbb1a40acc55b31!2z0JLQvtC70L7Qs9C00LAsINCS0L7Qu9C-0LPQvtC00YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sby!4v1548423289180"
+		}
+  }
 ]
