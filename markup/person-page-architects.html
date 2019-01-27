@@ -84,30 +84,111 @@
 		<section id = "gallery" class="person-page gallery">
 			<h3 class="title">Фотогаллерея:</h3>
 			<div class="gallery-foto">
-				<!-- <div class="foto-url"> 
-					<img id="fotoWorks" class="foto-works" src="https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BA%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2.jpg" alt="Foto archtects">
-				</div>
-				<div class="foto-url"> 
-					<img id="fotoWorks" class="foto-works" src="https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BA%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2.jpg" alt="Foto archtects">
-				</div>
-				<div class="foto-url"> 
-						<img id="fotoWorks" class="foto-works" src="https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BA%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2.jpg" alt="Foto archtects">
-				</div>
-				<div class="foto-url"> 
-					<img id="fotoWorks" class="foto-works" src="https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BA%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2.jpg" alt="Foto archtects">
-				</div>
-				<div class="foto-url"> 
-						<img id="fotoWorks" class="foto-works" src="https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BA%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2.jpg" alt="Foto archtects">
-				</div> -->
-				<iframe scrolling="no" class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/1/13/%D0%A5%D1%83%D0%B4_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A0%D0%91.jpg" frameborder="0" style="border:0" allowfullscreen></iframe>
-				<iframe scrolling="no" class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Bakanovl-konv.jpg" frameborder="0" style="border:0" allowtransparency="true"></iframe>
-				<iframe scrolling="no" class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Minsk_Drama_Theatre.jpg" frameborder="0" style="border:0" allowtransparency="true"></iframe>
-				<iframe scrolling="no" class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/BGMU.jpg" frameborder="0" style="border:0" allowtransparency="true"></iframe>
-				<iframe scrolling="no" class="foto-works" src="https://konspekta.net/studopedianet/baza2/994265260559.files/image007.png" frameborder="0" style="border:0" allowtransparency="true"></iframe>
-				
-				
-				<iframe class="video" src="https://upload.wikimedia.org/wikipedia/commons/1/13/%D0%A5%D1%83%D0%B4_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A0%D0%91.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			
+
+
+
+			<ul class="carousel-container">
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" checked="checked" id="tab-0"/>
+				  <label class="dot" for="tab-0"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/1/13/%D0%A5%D1%83%D0%B4_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A0%D0%91.jpg"/>
+					  <label class="arrow back" for="tab-9"></label>
+					  <label class="arrow next" for="tab-1"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-1"/>
+				  <label class="dot" for="tab-1"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Bakanovl-konv.jpg"/>
+					  <label class="arrow back" for="tab-0"></label>
+					  <label class="arrow next" for="tab-2"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-2"/>
+				  <label class="dot" for="tab-2"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Minsk_Drama_Theatre.jpg"/>
+					  <label class="arrow back" for="tab-1"></label>
+					  <label class="arrow next" for="tab-3"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-3"/>
+				  <label class="dot" for="tab-3"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/BGMU.jpg"/>
+					  <label class="arrow back" for="tab-2"></label>
+					  <label class="arrow next" for="tab-4"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-4"/>
+				  <label class="dot" for="tab-4"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Belarus-Minsk-BSU-Rector%27s_Office-2.jpg"/>
+					  <label class="arrow back" for="tab-3"></label>
+					  <label class="arrow next" for="tab-5"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-5"/>
+				  <label class="dot" for="tab-5"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="https://konspekta.net/studopedianet/baza2/994265260559.files/image007.png"/>
+					  <label class="arrow back" for="tab-4"></label>
+					  <label class="arrow next" for="tab-6"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-6"/>
+				  <label class="dot" for="tab-6"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="https://vetliva.ru/upload/resize_cache/iblock/87b/1170_640_2ad00f77cb8d50abfaeeae09efd4a5122/87b253c44036acc444686e944f76f1b2.jpg"/>
+					  <label class="arrow back" for="tab-5"></label>
+					  <label class="arrow next" for="tab-7"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-7"/>
+				  <label class="dot" for="tab-7"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="http://budny.by/Portals/0/EasyDNNnews/3380/3380p_0001.jpg"/>
+					  <label class="arrow back" for="tab-6"></label>
+					  <label class="arrow next" for="tab-8"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-8"/>
+				  <label class="dot" for="tab-8"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="https://most-beauty.ru/wp-content/uploads/2018/04/Sosny.jpg"/>
+					  <label class="arrow back" for="tab-7"></label>
+					  <label class="arrow next" for="tab-9"></label>
+					</li>
+				  </ul>
+				</li>
+				<li>
+				  <input class="carousel-toggle" type="radio" name="toggle" id="tab-9"/>
+				  <label class="dot" for="tab-9"></label>
+				  <ul class="carousel-content">
+					<li><img class="foto-works" src="http://2.bp.blogspot.com/_2FJ60ov870I/THeOaxXhk7I/AAAAAAAAABc/nkyHg0MxjWU/s1600/DSC000852.jpg"/>
+					  <label class="arrow back" for="tab-8"></label>
+					  <label class="arrow next" for="tab-0"></label>
+					</li>
+				  </ul>
+				</li>
+			  </ul>
 			</div>
 
 		</section>
@@ -115,11 +196,7 @@
 
 		<section id = "video" class="person-page video">
 			<h3 class="title">Видео:</h3>
-			<div class="gallery-video">
-				<iframe class="video" src="https://www.youtube.com/embed/-rndNg_Ctvg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<iframe class="video" src="https://www.youtube.com/embed/-rndNg_Ctvg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<iframe class="video" src="https://www.youtube.com/embed/-rndNg_Ctvg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<iframe class="video" src="https://www.youtube.com/embed/-rndNg_Ctvg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<button class="gallery-video"></button>
 			</div>
 		</section>
 
