@@ -1,0 +1,30 @@
+.footer {
+	background-color: #dcdcde;
+	height: 120px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 4;
+}
+.footer-container {
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+}
+.footer__creator, .footer_corypight {
+	font-size: 1.25rem;
+	display: block;
+}
+.footer_creator{
+	font-family: "Roboto Light", "Helvetica", sans-serif;
+}
