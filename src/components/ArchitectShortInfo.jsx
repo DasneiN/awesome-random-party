@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Trans } from 'react-i18next';
 
 import '../styles/architect-short-info.css';
 
@@ -25,8 +26,10 @@ class ArchitectShortInfo extends Component {
             <div className="architect-short-info__description">
               <p>{ArchitectShortInfo.cutInfo(person.general.information, 400)}</p>
             </div>
+            <button className="button architect-short-info__button" type="button" onClick={() => onClick(person)}>
+              <Trans>More</Trans>
+            </button>
           </div>
-          <button className="button architect-short-info__button" type="button" onClick={() => onClick(person)} />
         </div>
       </section>
     );

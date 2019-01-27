@@ -33,9 +33,9 @@
 		-o-flex-direction: column;
 		flex-direction: column;
 	}
-	.architect-short-info__button {
+	/* .architect-short-info__button {
 		display: none;
-	}
+	} */
 }
 @media only screen and (max-width: 472px) {
 	.header__content {
