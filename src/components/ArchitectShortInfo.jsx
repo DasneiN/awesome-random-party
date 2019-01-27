@@ -13,7 +13,7 @@ class ArchitectShortInfo extends Component {
   }
 
   render() {
-    const { person, onClick } = this.props;
+    const { data, person, onClick } = this.props;
 
     return (
       <section className="architect-short-info section">
@@ -26,7 +26,7 @@ class ArchitectShortInfo extends Component {
             <div className="architect-short-info__description">
               <p>{ArchitectShortInfo.cutInfo(person.general.information, 400)}</p>
             </div>
-            <button className="button architect-short-info__button" type="button" onClick={() => onClick(person)}>
+            <button className="button architect-short-info__button" type="button" onClick={() => onClick(data.indexOf(person))}>
               <Trans>More</Trans>
             </button>
           </div>
