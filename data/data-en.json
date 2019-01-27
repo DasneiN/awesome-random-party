@@ -692,5 +692,83 @@
 			"nameMap": "Place of Birth",
 			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112297.90132670439!2d39.73089974459434!3d59.21709576637307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ae9822674da109%3A0x6dbb1a40acc55b31!2z0JLQvtC70L7Qs9C00LAsINCS0L7Qu9C-0LPQvtC00YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sby!4v1548423289180"
 		}
+  },
+  {
+    "general":{
+      "nameArchitect": "Stanislav Shabunevsky",
+      "information": "Belarusian architect, author of a significant part of the building development in Gomel at the beginning of the 20th century. Honorary Citizen of Gomel",
+      "fotoArchitect": "https://upload.wikimedia.org/wikipedia/commons/9/9f/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%A8%D0%B0%D0%B1%D1%83%D0%BD%D0%B5%D1%9E%D1%81%D0%BA%D1%96.jpg?uselang=ru",
+      "dateBirth": "December 2, 1866/1868",
+			"dateDeath": "1937",
+			"сityBirth": "Skorodnoe, now Yelsk district of the Gomel region",
+			"countryBirth": "Russian empire"
+    },
+    "biography": [
+      {
+        "period": "1898",
+        "information": "The first building designed according to his project in 1898 is the Gomel men's gymnasium. This is a 2-storey stone building in neoclassical style, occupying almost a whole block on the corner of Mogilyovskaya (Kirov) and Gymnasic (now part of Krasnoarmeyskaya) streets. Bronze mortgage board at the beginning of the construction of the gymnasium is stored in the Gomel regional museum of local lore. The building of one of the oldest educational institutions of the city has survived to our time in an altered form (the dome above the secondary Alexander Church was removed, the 3rd floor was built on after the Great Patriotic War). Now there is one of the buildings of the Gomel University of Transport."
+      },
+      {
+        "period": "1901",
+        "information": "The motives of classicism were used by S. D. Shabunevsky in the construction of banking institutions distinguished by their significance and monumentality. These include the Orlovsky Commercial Bank at the corner of Rumyantsevskaya and Irininskaya streets, which was erected in 1901. After World War II, the third floor was added to it, and now it is an administrative building on the corner of Sovetskaya and Irininskaya streets."
+      },
+      {
+        "period": "1910—1912",
+        "information": "The branch of the Vilna Commercial Bank was located on the 2nd and 3rd floors of a house built according to the design of an architect in 1910–1912. at the corner of Rumyantsevskaya and Troitskaya streets. It belonged to the Gomel merchant I. V. Dombrovsky, who at one time was elected by the mayor. On the ground floor there were shops and a pharmacy. Currently in the building on the corner of Sovetskaya and Krestyanskaya streets are the administrative services of Gomel and Gomel region. Outwardly different, these cans are a lot of common traits. The cut corners of both buildings, facing the intersection, were flanked by porticoes with columns, and were completed with domes. There were front doors. Destroyed facades were richly decorated using elements of classicism and modernism. These are typical examples of the so-called modern classicism. By order of the merchant Shanovich at the corner of Rumyantsevskaya and Myasnitskaya streets, S. D. Shabunevsky in 1912 designed the comfortable Savoy Hotel."
+      },
+      {
+        "period": "1914-1918",
+        "information": "In the period of the First World War, S. Shabunevsky, with the financial participation of Princess Irina Ivanovna Paskevich, built a Zemsky hospital and a gynecological hospital with a maternity hospital on ul. Prince Paskevich. Made in the modern style with classical motifs, the hospital buildings successfully fit into the coastal landscape and harmoniously harmonize with the panorama of the palace and park ensemble from the side of Sozh. Spacious rooms for patients were decorated restrained and comfortable. Today these buildings are used as medical institutions (the building of the emergency hospital and the military hospital on Komissarov str.)."
+      },
+      {
+        "period": "1919-1937",
+        "information": "Designing the shape of the building in accordance with its functional purpose is inherent in the workshop building of the bakery, which was preserved along Lenin Avenue, it was built by SD Shabunevsky in 1929. In this period, residential projects in the style of constructivism were built on the projects of S. Shabunevsky. One of the first multi-storey buildings in Gomel was a house on ul. Pushkin, 26, who had a section type apartment (1927). This building with cut corners of the facades received the name round gray house from Gomel residents. Broken glass was added to the plaster of its exterior walls. The sparkling hues that it creates, at the project designers, should somehow facilitate the appearance of this gray monolith. The six-storied dwelling house for workers of a steam locomotive car-repair plant with communal apartments - House-Commune (1929—1931, Lenin Ave., 51) became the highest building of the pre-war city. Long corridors with a large number of apartments and communal kitchens corresponded to the then ideas that in a communist society everyone should live together as a commune. In addition, such houses could accommodate a significant number of people who needed housing. With the features of constructivism, but already with separate apartments, S. Shabunevsky built in the early 1930s a house on Lenin Ave. 31, which consists of a central volume and two side wings, forming a cozy inner estate."
+      },
+      {
+        "period": "1939",
+        "information": "Died in GULAG, White Sea-Baltic Canal, Republic of Karelia, USSR"
+      }
+    ],
+    "mainWorks": [
+      {
+        "nameWorks": "Main works",
+        "list": [
+          "Gomel Men's High School",
+          "Building of the former Oryol Commercial Bank",
+          "The building of the former Vilensky commercial bank",
+          "Former home of the Gomel doctor N. I. Alexandrov.",
+          "Zemsky hospital",
+          "Former apartment building of merchant K. P. Groshikov",
+          "Hotel Savoy",
+          "Round gray house",
+          "House-commune on Lenin Ave.",
+          "House on Lenin Ave., 31"
+        ]
+			}
+    ],
+    "fotoUrl": [
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BelSUT_Gomel-3.jpg/1280px-BelSUT_Gomel-3.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/1_%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F_28.jpg/1280px-1_%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F_28.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%9A%D1%80%D0%B5%D1%81%D1%82%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_14._%D0%9E%D1%82%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%92%D0%B8%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0._%D0%A4%D0%BE%D1%82%D0%BE_02.JPG/800px-%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%9A%D1%80%D0%B5%D1%81%D1%82%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_14._%D0%9E%D1%82%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%92%D0%B8%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0._%D0%A4%D0%BE%D1%82%D0%BE_02.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%98%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11._%D0%A4%D0%BE%D1%82%D0%BE_06.JPG/1280px-%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%98%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11._%D0%A4%D0%BE%D1%82%D0%BE_06.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/%D0%9A%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B0%D1%80%D0%BE%D0%B2%D0%B0_27.JPG/1280px-%D0%9A%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B0%D1%80%D0%BE%D0%B2%D0%B0_27.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%91%D0%B0%D1%83%D0%BC%D0%B0%D0%BD%D0%B0_2-_%D0%91%D0%B8%D0%BB%D0%B5%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_5._%D0%A4%D0%BE%D1%82%D0%BE_03.JPG/1280px-%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%91%D0%B0%D1%83%D0%BC%D0%B0%D0%BD%D0%B0_2-_%D0%91%D0%B8%D0%BB%D0%B5%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_5._%D0%A4%D0%BE%D1%82%D0%BE_03.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/a/a3/Homiel%2C_Prabojnaja%2C_Savoj._%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C_%D0%9F%D1%80%D0%B0%D0%B1%D0%BE%D0%B9%D0%BD%D0%B0%D1%8F%2C_%D0%A1%D0%B0%D0%B2%D0%BE%D0%B9_%281930-39%29.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0_26._%D0%A4%D0%BE%D1%82%D0%BE_07.JPG/1280px-%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0_26._%D0%A4%D0%BE%D1%82%D0%BE_07.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/2/2b/Gomel._Lenin_Avenue._House_of_the_Commune.jpeg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0_31_2.JPG/1280px-%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0_31_2.JPG"
+    ],
+    "videoUrl": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+		],
+    "mapSrc": {
+			"nameMap": "Place of Birth",
+			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112297.90132670439!2d39.73089974459434!3d59.21709576637307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ae9822674da109%3A0x6dbb1a40acc55b31!2z0JLQvtC70L7Qs9C00LAsINCS0L7Qu9C-0LPQvtC00YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sby!4v1548423289180"
+		}
   }
 ]
