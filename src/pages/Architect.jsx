@@ -19,8 +19,8 @@ class Architect extends Component {
         <ArchitectInfo person={data[indexPersonToShow]} />
         <TimelineBio person={data[indexPersonToShow]} />
         <Jobs person={data[indexPersonToShow]} />
-        <Video person={data[indexPersonToShow]} />
         <Gallery person={data[indexPersonToShow]} />
+        <Video person={data[indexPersonToShow]} />
         <Map person={data[indexPersonToShow]} />
       </main>
     );
