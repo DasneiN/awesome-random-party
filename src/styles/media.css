@@ -24,14 +24,6 @@
 	.button_language img {
 		width: 50px;
 	}
-  // TODO: check it
-	.search {
-		width: 96%;
-	}
-	.search__label {
-		text-align: center;
-	}
-  // TODO: check it
 }
 @media only screen and (max-width: 480px) {
 	.architect-short-info__content {
@@ -41,9 +33,9 @@
 		-o-flex-direction: column;
 		flex-direction: column;
 	}
-	.architect-short-info__button {
+	/* .architect-short-info__button {
 		display: none;
-	}
+	} */
 }
 @media only screen and (max-width: 472px) {
 	.header__content {
@@ -69,5 +61,8 @@
 	.nav__button_active:hover {
 		background-color: white;
 		border-top-color: white;
+	}
+	.main {
+		margin-top: 210px;
 	}
 }

@@ -10,7 +10,9 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+  // TODO: check it
 	padding: 10px 0;
+  // TODO: check it
 }
 .architect-short-info__description {
 	max-height: 120px;

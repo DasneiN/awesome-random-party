@@ -25,6 +25,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.0.0-beta.6",
+    "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^1.0.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
@@ -48,9 +49,11 @@
   "dependencies": {
     "@babel/runtime": "^7.3.1",
     "i18next": "^14.0.1",
+    "lightbox-react": "^0.3.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-i18next": "^9.0.8",
-    "uniqid": "^5.0.3"
+    "uniqid": "^5.0.3",
+    "vertical-timeline-component-for-react": "^1.0.6"
   }
 }
