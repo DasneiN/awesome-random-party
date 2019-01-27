@@ -24,6 +24,13 @@ a {
 a:hover {
 	color: #f15858;
 }
+
+// TODO: check it
+input:focus, input:hover, input:active {
+	outline: none;
+}
+// TODO: check it
+
 p {
 	margin: 10px 0;
 }

@@ -24,6 +24,14 @@
 	.button_language img {
 		width: 50px;
 	}
+  // TODO: check it
+	.search {
+		width: 96%;
+	}
+	.search__label {
+		text-align: center;
+	}
+  // TODO: check it
 }
 @media only screen and (max-width: 480px) {
 	.architect-short-info__content {
@@ -61,8 +69,5 @@
 	.nav__button_active:hover {
 		background-color: white;
 		border-top-color: white;
-	}
-	.description {
-		margin-top: 210px;
 	}
 }
