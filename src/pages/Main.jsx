@@ -23,7 +23,7 @@ class Main extends Component {
       <main className="main">
         <Description />
         <h2 className="h2"><Trans>ArchitectOfTheDay</Trans></h2>
-        <ArchitectShortInfo person={person} onClick={getPersonToShow} />
+        <ArchitectShortInfo data={data} person={person} onClick={getPersonToShow} />
         <Team team={team} />
       </main>
     );

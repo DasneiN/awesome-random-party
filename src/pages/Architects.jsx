@@ -55,6 +55,7 @@ class Architects extends Component {
         {
           architects.map(architect => (
             <ArchitectShortInfo
+              data={data}
               key={uniqid()}
               person={architect}
               onClick={getPersonToShow}

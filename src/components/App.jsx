@@ -22,10 +22,11 @@ class App extends Component {
     const lang = localStorage.getItem('lang');
 
     this.state = {
+      data: [],
       lang,
       currentPage: 'Main',
       isLoading: true,
-      personToShow: {},
+      indexPersonToShow: null,
     };
   }
 
@@ -35,9 +36,9 @@ class App extends Component {
     this.loadData(lang);
   }
 
-  getPersonToShow(personToShow) {
+  getPersonToShow(indexPersonToShow) {
     this.setState({
-      personToShow,
+      indexPersonToShow,
     });
 
     this.selectPageHandler('Architect');
@@ -75,7 +76,7 @@ class App extends Component {
 
   render() {
     const {
-      lang, data, isLoading, currentPage, personToShow,
+      lang, data, isLoading, currentPage, indexPersonToShow,
     } = this.state;
 
     let page;
@@ -94,7 +95,7 @@ class App extends Component {
           break;
         }
         case 'Architect': {
-          page = <Architect person={personToShow} />;
+          page = <Architect data={data} indexPersonToShow={indexPersonToShow} />;
           break;
         }
         default:
