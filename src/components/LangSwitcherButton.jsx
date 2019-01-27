@@ -14,10 +14,13 @@ class LangSwitcherButton extends Component {
   }
 
   render() {
-    const { lang } = this.props;
+    const { lang, image } = this.props;
 
     return (
-      <button type="button" onClick={this.selectLangHandler} lang={lang}>{lang}</button>
+      <button className="button button_language" type="button" onClick={this.selectLangHandler} lang={lang}>
+        <img src={image} alt={lang} />
+        <span>{lang}</span>
+      </button>
     );
   }
 }
