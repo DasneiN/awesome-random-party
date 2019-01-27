@@ -24,6 +24,9 @@
 	.button_language img {
 		width: 50px;
 	}
+	.search {
+		width: 96%;
+	}
 	.search__label {
 		text-align: center;
 	}
