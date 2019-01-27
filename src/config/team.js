@@ -1,7 +1,7 @@
 import mikhamaAvatar from '../images/team/mikhama.jpg';
 import Pulya10cAvatar from '../images/team/Pulya10c.jpg';
 import haspadarZPadMenskuAvatar from '../images/team/haspadarZ-padMensku.jpg';
-import OlgaNaranovichAvatar from '../images/team/OlgaNaranovich.png';
+import OlgaNaranovichAvatar from '../images/team/OlgaNaranovich.jpg';
 import Kirill82Avatar from '../images/team/Kirill82.jpg';
 
 const team = [
