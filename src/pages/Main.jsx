@@ -16,12 +16,12 @@ class Main extends Component {
     const person = Main.getRandomPerson(data);
 
     return (
-      <>
+      <main className="main">
         <Description />
-        <h2><Trans>ArchitectOfTheDay</Trans></h2>
+        <h2 className="h2"><Trans>ArchitectOfTheDay</Trans></h2>
         <ArchitectShortInfo person={person} onClick={getPersonToShow} />
         <Team team={team} />
-      </>
+      </main>
     );
   }
 }

@@ -6,10 +6,12 @@ class TeamMember extends Component {
     const { github, name, avatar } = this.props;
 
     return (
-      <div className="team-member">
-        <img src={avatar} alt={`${name}'s avatar`} width="100" height="100" />
-        <span><Trans>{name}</Trans></span>
-        <a href={`https://github.com/${github}`}>{github}</a>
+      <div className="team__member">
+        <img src={avatar} alt={`${name}'s avatar`} width="150" />
+        <span className="team__member-name"><Trans>{name}</Trans></span>
+        <div className="team__member-github">
+          <a href={`https://github.com/${github}`}>{github}</a>
+        </div>
       </div>
     );
   }

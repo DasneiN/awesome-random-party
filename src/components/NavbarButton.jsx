@@ -15,10 +15,13 @@ class NavbarButton extends Component {
   }
 
   render() {
-    const { page } = this.props;
+    const { page, currentPage } = this.props;
+    const isActive = page === currentPage;
 
     return (
-      <button type="button" onClick={this.selectPageHandler}><Trans>{page}</Trans></button>
+      <button className={`button nav__button ${isActive && 'nav__button_active'}`} type="button" onClick={this.selectPageHandler}>
+        <Trans>{page}</Trans>
+      </button>
     );
   }
 }

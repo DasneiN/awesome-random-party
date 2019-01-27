@@ -4,14 +4,14 @@ import NavbarButton from './NavbarButton';
 
 class Navbar extends Component {
   render() {
-    const { onClick } = this.props;
+    const { onClick, currentPage } = this.props;
 
     return (
-      <div className="navbar">
+      <nav className="header__nav nav">
         {['Main', 'Architects'].map(page => (
-          <NavbarButton key={uniqid()} page={page} onClick={onClick} />
+          <NavbarButton key={uniqid()} page={page} currentPage={currentPage} onClick={onClick} />
         ))}
-      </div>
+      </nav>
     );
   }
 }

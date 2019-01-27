@@ -9,12 +9,12 @@ class Architect extends Component {
     const { person } = this.props;
 
     return (
-      <>
+      <main className="main">
         <ArchitectInfo person={person} />
         <TimelineBio person={person} />
         <Video person={person} />
         <Gallery person={person} />
-      </>
+      </main>
     );
   }
 }
