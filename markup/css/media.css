@@ -2,9 +2,6 @@
 	.button_language span {
 		display: none;
 	}
-	.items-wrap {
-		justify-content: center;
-	}
 }
 @media only screen and (max-width: 768px) {
 	.section {

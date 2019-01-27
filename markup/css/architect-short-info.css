@@ -1,3 +1,9 @@
+.architect-short-info__link {
+	text-decoration: none;
+}
+.architect-short-info__link:hover {
+	color: inherit;
+}
 .architect-short-info__content {
 	display: -webkit-flex;
 	display: -moz-flex;
