@@ -34,6 +34,10 @@
 	margin: 0 0 10px 0;
 }
 
+.person-page .inform-architects-source {
+	margin-right: 15px;
+}
+
 .person-page .yers-life-architects {
 	display: flex;
     align-items: baseline;
@@ -88,6 +92,11 @@
 }
 
 @media (max-width: 768px){
+
+	
+.person-page .inform-architects-source {
+	margin-right: 0;
+}
 
 	.person-page .name-architects-source {
 		text-align: justify;
