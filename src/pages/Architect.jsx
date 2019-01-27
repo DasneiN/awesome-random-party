@@ -3,6 +3,7 @@ import ArchitectInfo from '../components/ArchitectInfo';
 import TimelineBio from '../components/TimelineBio';
 import Video from '../components/Video';
 import Gallery from '../components/Gallery';
+import Map from '../components/Map';
 import Jobs from '../components/Jobs';
 
 class Architect extends Component {
@@ -20,6 +21,7 @@ class Architect extends Component {
         <Jobs person={person} />
         <Video person={person} />
         <Gallery person={person} />
+        <Map person={person} />
       </main>
     );
   }
