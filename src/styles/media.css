@@ -4,6 +4,9 @@
 	}
 }
 @media only screen and (max-width: 768px) {
+  .h2 {
+		text-align: center;
+  }
 	.section {
 		text-align: center;
 	}
@@ -33,9 +36,6 @@
 		-o-flex-direction: column;
 		flex-direction: column;
 	}
-	/* .architect-short-info__button {
-		display: none;
-	} */
 }
 @media only screen and (max-width: 472px) {
 	.header__content {

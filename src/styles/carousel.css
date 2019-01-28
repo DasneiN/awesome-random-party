@@ -136,14 +136,14 @@
 
 @media (max-width: 768px){
 
-	section h3.title{
+	.gallery h3.title{
 		color: #414a4f;
 		font: bold 1.2em 'Open Sans', sans-serif;
 		margin-bottom: 10px;
 		text-align: left;
 	}
 
-	section h2{
+	.gallery h2{
 		text-align: left;
 		margin: 0 0 10px 10px;
 		font: bold 1.1em 'Open Sans', sans-serif;

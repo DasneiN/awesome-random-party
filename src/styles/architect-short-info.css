@@ -9,7 +9,9 @@
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
-	display: flex;
+  display: flex;
+  border-bottom: 3px dotted #cccccc;
+  padding-bottom: 20px;
 }
 .architect-short-info__description {
 	max-height: 120px;

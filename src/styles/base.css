@@ -44,10 +44,10 @@ body {
 	margin: 30px 0 50px;
 }
 .h2 {
-	font-size: 1.6rem;
 	text-transform: uppercase;
 	margin: 20px 0;
-	color: #f15858;
+  color: #f15858;
+  font: bold 1.6em 'Open Sans', sans-serif;
 }
 .h3 {
 	font-size: 1.6em;
