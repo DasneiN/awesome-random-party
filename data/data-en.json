@@ -118,7 +118,7 @@
       "fotoArchitect": "https://upload.wikimedia.org/wikipedia/ru/6/6d/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BA%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2.jpg",
       "dateBirth": "February 12, 1914",
 			"dateDeath": "January 23, 1990",
-			"сityBirth": "Ivanovka", 
+			"сityBirth": "Ivanovka",
 			"countryBirth": "Republic of Ukraine"
     },
       "biography": [
@@ -265,7 +265,7 @@
       "https://www.youtube.com/embed/SL3BKtvbBXY?controls=0"
 		],
     "mapSrc": {
-			"url": "https://www.google.com/mapSrcs/embed?pb=!1m18!1m12!1m3!1d30895.87428862008!2d37.30160898691395!3d47.573938920815635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e74966c16cc677%3A0x3473eabd3e49bb51!2z0JjQstCw0L3QvtCy0LrQsCwg0JTQvtC90LXRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDg1NzYz!5e0!3m2!1sru!2sby!4v1548380014949"
+			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30895.87428862008!2d37.30160898691395!3d47.573938920815635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e74966c16cc677%3A0x3473eabd3e49bb51!2z0JjQstCw0L3QvtCy0LrQsCwg0JTQvtC90LXRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDg1NzYz!5e0!3m2!1sru!2sby!4v1548380014949"
 		}
 	},
 	{
@@ -422,5 +422,363 @@
     "mapSrc": {
 			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112297.90132670439!2d39.73089974459434!3d59.21709576637307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ae9822674da109%3A0x6dbb1a40acc55b31!2z0JLQvtC70L7Qs9C00LAsINCS0L7Qu9C-0LPQvtC00YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sby!4v1548423289180"
 		}
-	}
+  },
+  {
+    "general":{
+      "nameArchitect": "Iosif Langbard",
+      "information": "Belarusian Soviet architect, Honored Art Worker of the Belarusian SSR (1934), winner of the Grand Prix of the World Exhibition in Paris, 1937, doctor of architecture (since 1939).",
+      "fotoArchitect": "https://img.tyt.by/n/kultura/01/4/langbard_untitled_3a1.jpg",
+      "dateBirth": "January 6 (18), 1882",
+			"dateDeath": "January 3, 1951",
+			"сityBirth": "small town Belsk, Grodno province",
+			"countryBirth": "Russian Empire"
+    },
+    "biography": [
+      {
+        "period": "January 6 (18), 1882",
+        "information": "Joseph Langbard was born on January 6 (18), 1882 in the town of Belsk, Grodno Province of the Russian Empire, into a Jewish family. His father saw a future for his son in commerce, but Joseph from childhood loved to draw."
+      },
+      {
+        "period": "1901-1906",
+        "information": "Brilliantly graduating in 1901, a local gymnasium, entered the architectural department of the Odessa Art College, from which he graduated in 1906."
+      },
+      {
+        "period": "1907—1914",
+        "information": "In 1907 he moved to St. Petersburg, where he successfully passed the exams at the Higher Art School at the Imperial Academy of Arts at the Faculty of Architecture. He studied for seven years in St. Petersburg (1907-1914). Among the teachers of Langbard was the famous Russian architect Alexander Pomerantsev, who designed the GUM building in Moscow. It was under his leadership that Langbard in 1914 defended his thesis project “The building of the State Council of the Russian Empire."
+      },
+      {
+        "period": "1914-1918",
+        "information": "During World War I, Langbard worked at the front as head of an engineering squad. Under his leadership at that time were built Zemstvo government in Kostroma, an agricultural museum and a miniature theater in Petrograd. At the end of the war he was the executor of the works of the construction office at the health department in Petrograd."
+      },
+      {
+        "period": "1918-1929",
+        "information": "In 1923, the architectural project of Langbard, among the forty-seven works of other authors, participated in the competition of projects of the Palace of Labor in Moscow - the main public building of the USSR. In 1929, he won the All-Union competition for the best project of the House of Government of the Byelorussian SSR. Langbard executed the projects of buildings of the Institute of Mineral Resources in Moscow, mechanical laundries, dispensary and kitchen factories, as well as the Botkin Infectious Diseases Hospital in Leningrad. In January 1925, the Leningrad Regional Committee announced a competition for housing projects. The first prize was given to the Langbard team for a project for the Moscow-Narva region. In 1926–1927, Langbard executed a competitive design for a three-apartment apartment building for the workers of the Red Triangle factory in Leningrad. He also performs projects at various competitions: a theater and a club in Yekaterinoslav, a house of culture in Vyatka, a folk house in Rastyapino (Dzerzhinsk), a Vasileostrovsky house of culture in Leningrad, a theater in Kharkov."
+      },
+      {
+        "period": "1930-1935",
+        "information": "In the early 1930s, Langbard received the first large orders for construction in Belarus and Ukraine. The first project implemented by Langbard on his arrival in Minsk was the construction of about forty wooden pavilions for the All-Belarusian Agricultural and Industrial Exhibition. After that, he was invited to design buildings in the central part of the city. Langbard proposed models of three buildings: the Government House of the Byelorussian SSR, the State Opera and Ballet Theater of the Byelorussian SSR and the House of the Red Army (the modern House of Officers). The draft House of Government was prepared and approved in 1929, and from 1930 to 1934 it was implemented. In front of this building was a monument to V. I. Lenin, designed by Langbard together with the Leningrad sculptor M. G. Manizer. For this ensemble, Joseph Langbard was awarded the honorary title Honored Artist of the Byelorussian SSR. Since 1933, two more projects of the architect have been realized: the Opera and Ballet Theater on Trinity Hill and the Red Army House on the foundation of the former bishop's palace."
+      },
+      {
+        "period": "1935-1939",
+        "information": "In 1935, Langbard was entrusted with the task of drafting the House of Soviets in Mogilev, where it was soon supposed to transfer the capital of the BSSR. The building was erected in the years 1938-1940. In 1935, Langbard began to rework the building project of the Academy of Sciences of the Belarusian SSR, developed by G. Lavrov. In 1937, the work of the architect received worldwide recognition; Joseph Langbard won the Grand Prix at the World Exhibition in Paris."
+      },
+      {
+        "period": "1939-1944",
+        "information": "During the Second World War, Langbard worked on the disguise of buildings in Leningrad, after evacuation to the rear lived in the Yaroslavl region. In 1944 he returned to Minsk, destroyed by the fascists, where he worked on the plans for the reconstruction of Minsk and Gomel as part of the commission of the Committee on Architectural Affairs of the USSR SNK. In 1949, for this work he was awarded the Soviet Order Badge of Honor. Together with Mikhail Baklanov, he designed the building of the Victory cinema in Minsk, completed in 1950."
+      },
+      {
+        "period": "1944-1951",
+        "information": "From 1935 to 1950, Joseph Langbard taught at the Leningrad Institute of Painting, Sculpture and Architecture (LIJSA), now - Repin Institute in St. Petersburg."
+      },
+			{
+        "period": "January 3, 1951",
+        "information": "He died in Leningrad."
+      }
+    ],
+    "mainWorks": [
+      {
+        "nameWorks": "Main works",
+        "list": [
+          "Residential building for workers of the Red Triangle factory on Gaza Ave. in Leningrad (1927; competition)",
+          "The complex of theater and cinema of Orsha (1930)",
+          "The House of the Government of the Byelorussian SSR in Minsk (All-Union Competition 1929; 1st prize; employees: Kovarsky Ya. M., Lyubarsky G. P .; founded in 1929; 1934—1937)",
+          "Monument to Chapaev (Samara); (together with the sculptor M. G. Manizer); Monument installed in 1932",
+          "House of the Red Army in Minsk (1934-1939)",
+          "The State Opera and Ballet Theater of the Byelorussian SSR in Minsk (1934; built 1937-1938)",
+          "Monument to Taras Shevchenko (together with the sculptor M. G. Manizer) in Kharkov (1936), considered one of the best in Ukraine",
+          "House of Soviets in Mogilev (1938-1939)",
+          "The main building of the Academy of Sciences of the Byelorussian SSR in Minsk (1935-1939)",
+          "Project cinema Victory (1950)",
+          "Zemstvo administration in Kostroma (1914-1918)",
+          "Agricultural Museum in Petrograd (1914-1918)",
+          "Theater of miniatures in Petrograd (1914-1918)",
+          "KPU City Committee Building in Kiev (1939, now the Ministry of Foreign Affairs of Ukraine)",
+          "Yanka Kupala Theater in Minsk, reconstruction of the main facade (1938)"
+        ]
+			}
+    ],
+    "fotoUrl": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Tower_on_Red_Triangle_building_%28Saint_Petersburg%29.jpg/800px-Tower_on_Red_Triangle_building_%28Saint_Petersburg%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gouvernementbelarus.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/8/84/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%A7%D0%B0%D0%BF%D0%B0%D0%B5%D0%B2%D1%83.jpg",
+      "https://upload.wikimedia.org/wikipedia/ru/a/a6/Theatre_opera%26ballet%2C_Minsk.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/dd/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%83_%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%28%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/%D0%93._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_-_%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%88%D1%87%D1%8B_%D0%9B%D0%B5%D0%BD%D1%96%D0%BD%D0%B0_PICT1773.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/Belarus-Minsk-Academy_of_Sciences-2.jpg?uselang=ru"
+    ],
+    "videoUrl": [
+      "https://www.youtube.com/embed/dlQIlW3V-iU?controls=0",
+      "https://www.youtube.com/embed/xsZke0e0KHc?controls=0"
+		],
+    "mapSrc": {
+			"url": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d292003.40614057635!2d25.25711974883205!3d53.94732296564963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LzQtdGB0YLQtdGH0LrQviDQkdC10LvRjNGB0Log0JPRgNC-0LTQvdC10L3RgdC60L7QuSDQs9GD0LHQtdGA0L3QuNC4!5e0!3m2!1sru!2sby!4v1548611873423"
+		}
+  },
+  {
+    "general":{
+      "nameArchitect": "Viktar Karaka",
+      "information": "Belarusian architect, member of the board of the Belarusian Union of Architects, winner of the Lenin Komsomol Prize of Belarus, head of the creative workshop.",
+      "fotoArchitect": "https://dic.academic.ru/pictures/wiki/files/75/Karako_Victor.jpg",
+      "dateBirth": "July 29, 1948",
+			"dateDeath": "",
+			"сityBirth": "Grodno city, Belarusian SSR",
+			"countryBirth": "the USSR"
+    },
+    "biography": [
+      {
+        "period": "1966—1972",
+        "information": "Belarusian Polytechnic Institute, Department of Architecture."
+      },
+      {
+        "period": "1972—1976, 1982—1998",
+        "information": "BELGOSPROEKT. Architect, senior architect, chief architect of projects, workshop manager."
+      },
+      {
+        "period": "1976—1982",
+        "information": "BelNIIPgrading. Head of the group of architects, chief architect of projects, head of the workshop."
+      },
+      {
+        "period": "1982",
+        "information": "Winner of the Leninsky Komsomol Prize of Belarus in the field of architecture for the project of the Youth Palace in Novopolotsk."
+      },
+      {
+        "period": "1998-...",
+        "information": "Own creative workshop."
+      },
+      {
+        "period": "2003-...",
+        "information": "Teaches design at the Faculty of Architecture of the Belarusian National Technical University."
+      },
+      {
+        "period": "2005-...",
+        "information": "He is a board member of the Belarusian Union of Architects."
+      }
+    ],
+    "mainWorks": [
+      {
+        "nameWorks": "Main works",
+        "list": [
+          "Judge's house on the Borovaya racing ring",
+          "Youth Center in Novopolotsk",
+          "Reconstruction of school 4 in Minsk",
+          "Dispensary of the KGB and the Council of Ministers on Lake Vyacha",
+          "Interior Ministry building on the street. Opansky in Minsk",
+          "Flower shop in Minsk",
+          "Reconstruction of the bank building along Zaslavskaya Street 10 "
+        ]
+			}
+    ],
+    "fotoUrl": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/%D0%9F%D0%9F%D0%A1_317.jpg/1024px-%D0%9F%D0%9F%D0%A1_317.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg/1920px-%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6c/Belagroprombank.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/Dk_lobby_novopolotsk.jpg"
+    ],
+    "videoUrl": [
+      "https://www.youtube.com/embed/NB1M6jZr4pc?controls=0"
+		],
+    "mapSrc": {
+			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d169835.296066847!2d23.784183091704314!3d53.66200096339675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dfd64beac55d1d%3A0xf013fd26569718c0!2z0JPRgNC-0LTQvdC-!5e0!3m2!1sru!2sby!4v1548612804632"
+		}
+  },
+  {
+    "general":{
+      "nameArchitect": "George Zaborsky",
+      "information": "National Architect of the USSR (1981), Honored Builder of Belarus, Academician of the Russian Academy of Architecture and Construction Sciences, Academician of the Belarusian Academy of Architecture, winner of the USSR State Prize (1971).",
+      "fotoArchitect": "http://rntbcat.org.by/belnames/F_HTM/Zaborskij.files/image004.jpg",
+      "dateBirth": "November 11, 1909",
+			"dateDeath": "March 27, 1999",
+			"сityBirth": "Minsk",
+			"countryBirth": "Russian empire"
+    },
+    "biography": [
+      {
+        "period": "1929-1939",
+        "information": "After graduating from school in 1929, G. Zaborsky became a worker at the stadium. After working there for a year, he entered the Minsk Vocational School of peasant refractory construction. The first practice of G. Zaborsky was held on the construction site of the Government House. Here he met with the architect I. Langbard. After graduating, George Zaborsky was sent to the All-Russian Academy of Arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munts, A. Nikolsky and others."
+      },
+      {
+        "period": "1939—1941",
+        "information": "After graduating from the Academy of Arts in 1939, G. Zaborsky entered the competition in Moscow, but he did not work there for long and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesye regions. In the same year, he participated in the republican competition for the best project of a monument for the city of Bialystok in honor of the reunification of Western Belarus. His project was recognized as the best, but the construction was prevented by the Great Patriotic War."
+      },
+      {
+        "period": "1941—1944",
+        "information": "Already in the first days of the war he went to the front as a volunteer, but in the battles near Smolensk he was seriously wounded and ended up in the hospital of the Ural town of Troitsk, where he completed a number of projects-sketches of monuments dedicated to the heroic victory of the Soviet people in the Great Patriotic War, which became the basis of the future monument- Victory Monument in Minsk."
+      },
+      {
+        "period": "1944-1950",
+        "information": "After the war he returned to Belarus and actively participated in the work of reviving the destroyed cities and villages. From 1945 to 1964, George Zaborsky led the architectural design workshops of design institutes Belgosproekt and Minskproekt and at the same time taught at the architectural department of the Belarusian Polytechnic Institute (now the Belarusian National Technical University). He takes an active part in the development of projects for the planning and development of Minsk, Polotsk, Orsha. Georgy Zaborsky takes part in the design of Minsk areas: Lenin (Independence), Central (October), Round (Victory)."
+      },
+      {
+        "period": "1950-1960",
+        "information": "In 1950, engaged in the design of residential buildings on the street. Lenin in Minsk. At the same time, he created the Suvorov School and the building of the Central Committee of the Young Communist Youth Union. In 1952, according to his project, a monument was opened. V. Stalin, and in 1954 - a monument-monument on the square. Victory. In 1952, Georgiy Vladimirovich designed the house for the family of J. Kolas. After the death of the poet, Zaborsky took part in the creation of a monument on his grave, and after a while a monument on Y. Kolas Square in Minsk."
+      },
+      {
+        "period": "1960-1990",
+        "information": "In the early 60s. the architect’s designs have built the Pioneer cinema and the Museum of the Great Patriotic War. At the same time, Georgy Vladimirovich is designing a memorial complex Zislov, the opening of which took place in 1969. In March 1964. on a personal request he moved to the design institute Belgiproselstroy. He made a great creative contribution to the creation of the modern look of the Belarusian village. The main projects of this time were the social center of the village. Mishkovichi, Kirovsky district, building the collective farm Red Change Lyuban district, building village. Vertelishki - the center of the collective farm Progress of the Grodno region, for which he received the State Prize of the USSR in 1971. He finished his practical creative work in the early 1990s One of his last works was the project of a monument to victims of mass repressions in Kurapaty near Minsk."
+      },
+      {
+        "period": "March 27, 1999",
+        "information": "He died in the city of Minsk."
+      }
+    ],
+    "mainWorks": [
+      {
+        "nameWorks": "Main works",
+        "list": [
+          "Victory Monument in Minsk",
+          "Lenin Square (Independence)",
+          "Central Square (October)",
+          "Round Square (Victory).",
+          "Residential building on the street. Lenin in Minsk.",
+          "Suvorov School in Minsk",
+          "The building of the Central Committee LKSMB"
+        ]
+			}
+    ],
+    "fotoUrl": [
+       "http://minsk-old-new.com/Image/monument/memorial_victory_22-1.jpg",
+       "https://minsk-old-new.com/Image/ploshad/nezavisimosti/1982C.jpg",
+       "https://s3-eu-west-1.amazonaws.com/media.agentika.com/user/03aeeee9-20e3-4cf9-8354-484b4783c026.jpeg",
+       "http://minsk-old-new.com/Image/monument/memorial_victory_22-1.jpg",
+       "https://34travel.me/media/upload/images/2015/november/minsk/minsk_10.jpg",
+       "https://kudapostupat.by/images/thumb/art_409_orig.jpg",
+       "https://minsk-old-new.com/assets/images/Image/streets/krasnoarmeyskaya/krasnoarmeyskaya-024.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/1/1e/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%A1%D1%82%D0%B0%D0%BB%D0%B8%D0%BD%D1%83_%D0%BD%D0%B0_%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%B3._%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B0.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/8/8f/Opening_Stalin_monument_in_Minsk%2C_September_1952.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Belarus-Minsk-Yakub_Kolas_Square-2.jpg/1280px-Belarus-Minsk-Yakub_Kolas_Square-2.jpg"
+    ],
+    "videoUrl": [
+      "https://www.youtube.com/embed/Ms8WDFsH7Xg?controls=0"
+		],
+    "mapSrc": {
+			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150508.6355030057!2d27.579648242630203!3d53.883806864021956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1548613067499"
+		}
+  },
+  {
+    "general":{
+      "nameArchitect": "Stanislav Shabunevsky",
+      "information": "Belarusian architect, author of a significant part of the building development in Gomel at the beginning of the 20th century. Honorary Citizen of Gomel",
+      "fotoArchitect": "https://upload.wikimedia.org/wikipedia/commons/9/9f/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%A8%D0%B0%D0%B1%D1%83%D0%BD%D0%B5%D1%9E%D1%81%D0%BA%D1%96.jpg?uselang=ru",
+      "dateBirth": "December 2, 1866/1868",
+			"dateDeath": "1937",
+			"сityBirth": "Skorodnoe, now Yelsk district of the Gomel region",
+			"countryBirth": "Russian empire"
+    },
+    "biography": [
+      {
+        "period": "1898",
+        "information": "The first building designed according to his project in 1898 is the Gomel men's gymnasium. This is a 2-storey stone building in neoclassical style, occupying almost a whole block on the corner of Mogilyovskaya (Kirov) and Gymnasic (now part of Krasnoarmeyskaya) streets. Bronze mortgage board at the beginning of the construction of the gymnasium is stored in the Gomel regional museum of local lore. The building of one of the oldest educational institutions of the city has survived to our time in an altered form (the dome above the secondary Alexander Church was removed, the 3rd floor was built on after the Great Patriotic War). Now there is one of the buildings of the Gomel University of Transport."
+      },
+      {
+        "period": "1901",
+        "information": "The motives of classicism were used by S. D. Shabunevsky in the construction of banking institutions distinguished by their significance and monumentality. These include the Orlovsky Commercial Bank at the corner of Rumyantsevskaya and Irininskaya streets, which was erected in 1901. After World War II, the third floor was added to it, and now it is an administrative building on the corner of Sovetskaya and Irininskaya streets."
+      },
+      {
+        "period": "1910—1912",
+        "information": "The branch of the Vilna Commercial Bank was located on the 2nd and 3rd floors of a house built according to the design of an architect in 1910–1912. at the corner of Rumyantsevskaya and Troitskaya streets. It belonged to the Gomel merchant I. V. Dombrovsky, who at one time was elected by the mayor. On the ground floor there were shops and a pharmacy. Currently in the building on the corner of Sovetskaya and Krestyanskaya streets are the administrative services of Gomel and Gomel region. Outwardly different, these cans are a lot of common traits. The cut corners of both buildings, facing the intersection, were flanked by porticoes with columns, and were completed with domes. There were front doors. Destroyed facades were richly decorated using elements of classicism and modernism. These are typical examples of the so-called modern classicism. By order of the merchant Shanovich at the corner of Rumyantsevskaya and Myasnitskaya streets, S. D. Shabunevsky in 1912 designed the comfortable Savoy Hotel."
+      },
+      {
+        "period": "1914-1918",
+        "information": "In the period of the First World War, S. Shabunevsky, with the financial participation of Princess Irina Ivanovna Paskevich, built a Zemsky hospital and a gynecological hospital with a maternity hospital on ul. Prince Paskevich. Made in the modern style with classical motifs, the hospital buildings successfully fit into the coastal landscape and harmoniously harmonize with the panorama of the palace and park ensemble from the side of Sozh. Spacious rooms for patients were decorated restrained and comfortable. Today these buildings are used as medical institutions (the building of the emergency hospital and the military hospital on Komissarov str.)."
+      },
+      {
+        "period": "1919-1937",
+        "information": "Designing the shape of the building in accordance with its functional purpose is inherent in the workshop building of the bakery, which was preserved along Lenin Avenue, it was built by SD Shabunevsky in 1929. In this period, residential projects in the style of constructivism were built on the projects of S. Shabunevsky. One of the first multi-storey buildings in Gomel was a house on ul. Pushkin, 26, who had a section type apartment (1927). This building with cut corners of the facades received the name round gray house from Gomel residents. Broken glass was added to the plaster of its exterior walls. The sparkling hues that it creates, at the project designers, should somehow facilitate the appearance of this gray monolith. The six-storied dwelling house for workers of a steam locomotive car-repair plant with communal apartments - House-Commune (1929—1931, Lenin Ave., 51) became the highest building of the pre-war city. Long corridors with a large number of apartments and communal kitchens corresponded to the then ideas that in a communist society everyone should live together as a commune. In addition, such houses could accommodate a significant number of people who needed housing. With the features of constructivism, but already with separate apartments, S. Shabunevsky built in the early 1930s a house on Lenin Ave. 31, which consists of a central volume and two side wings, forming a cozy inner estate."
+      },
+      {
+        "period": "1939",
+        "information": "Died in GULAG, White Sea-Baltic Canal, Republic of Karelia, USSR"
+      }
+    ],
+    "mainWorks": [
+      {
+        "nameWorks": "Main works",
+        "list": [
+          "Gomel Men's High School",
+          "Building of the former Oryol Commercial Bank",
+          "The building of the former Vilensky commercial bank",
+          "Former home of the Gomel doctor N. I. Alexandrov.",
+          "Zemsky hospital",
+          "Former apartment building of merchant K. P. Groshikov",
+          "Hotel Savoy",
+          "Round gray house",
+          "House-commune on Lenin Ave.",
+          "House on Lenin Ave., 31"
+        ]
+			}
+    ],
+    "fotoUrl": [
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BelSUT_Gomel-3.jpg/1280px-BelSUT_Gomel-3.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/1_%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F_28.jpg/1280px-1_%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F_28.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%9A%D1%80%D0%B5%D1%81%D1%82%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_14._%D0%9E%D1%82%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%92%D0%B8%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0._%D0%A4%D0%BE%D1%82%D0%BE_02.JPG/800px-%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%9A%D1%80%D0%B5%D1%81%D1%82%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_14._%D0%9E%D1%82%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%92%D0%B8%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0._%D0%A4%D0%BE%D1%82%D0%BE_02.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%98%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11._%D0%A4%D0%BE%D1%82%D0%BE_06.JPG/1280px-%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%98%D1%80%D0%B8%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11._%D0%A4%D0%BE%D1%82%D0%BE_06.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/%D0%9A%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B0%D1%80%D0%BE%D0%B2%D0%B0_27.JPG/1280px-%D0%9A%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B0%D1%80%D0%BE%D0%B2%D0%B0_27.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%91%D0%B0%D1%83%D0%BC%D0%B0%D0%BD%D0%B0_2-_%D0%91%D0%B8%D0%BB%D0%B5%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_5._%D0%A4%D0%BE%D1%82%D0%BE_03.JPG/1280px-%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%91%D0%B0%D1%83%D0%BC%D0%B0%D0%BD%D0%B0_2-_%D0%91%D0%B8%D0%BB%D0%B5%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_5._%D0%A4%D0%BE%D1%82%D0%BE_03.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/a/a3/Homiel%2C_Prabojnaja%2C_Savoj._%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%2C_%D0%9F%D1%80%D0%B0%D0%B1%D0%BE%D0%B9%D0%BD%D0%B0%D1%8F%2C_%D0%A1%D0%B0%D0%B2%D0%BE%D0%B9_%281930-39%29.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0_26._%D0%A4%D0%BE%D1%82%D0%BE_07.JPG/1280px-%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C._%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0_26._%D0%A4%D0%BE%D1%82%D0%BE_07.JPG",
+       "https://upload.wikimedia.org/wikipedia/commons/2/2b/Gomel._Lenin_Avenue._House_of_the_Commune.jpeg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0_31_2.JPG/1280px-%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0_31_2.JPG"
+    ],
+    "videoUrl": [
+      "https://www.youtube.com/embed/1WcWE7pM1tQ?controls=0"
+		],
+    "mapSrc": {
+			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112105.76911605007!2d28.86505212366086!3d51.619341556003505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4729ee2301d4b0f3%3A0xed616453bc95983b!2z0KHQutC-0YDQvtC00L3QvtC1!5e0!3m2!1sru!2sby!4v1548613243936"
+		}
+  },
+  {
+    "general":{
+      "nameArchitect": "Leonid Makarevich",
+      "information": "Soviet and Belarusian architect",
+      "fotoArchitect": "http://alexandrnevski.prihod.ru/users/85/1585/editor_files/image/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B92.jpg",
+      "dateBirth": "1939",
+			"dateDeath": "",
+			"сityBirth": "BSSR",
+			"countryBirth": "the USSR"
+    },
+    "biography": [
+      {
+        "period": "1969",
+        "information": "He graduated from the Belarusian Polytechnic Institute in 1969."
+      },
+      {
+        "period": "1969-...",
+        "information": "He worked in the Baranovichi architectural design department of the design institute Brestgrazhdanproekt."
+      }
+    ],
+    "mainWorks": [
+      {
+        "nameWorks": "Main works",
+        "list": [
+          "Cinema October (1970)",
+          "House of Soviets (1973)",
+          "House of Pioneers (1984)",
+          "Hotel of Brest Regional Executive Committee (1986)",
+          "St. Theodore Cathedral, Pinsk (1992)",
+          "Cathedral of the New Martyrs and Confessors of the Church of the Russian Dyatlovo (1993)",
+          "Church of Alexander Nevsky Baranovichi (1996-1999)",
+          "Church of St. Seraphim of Sarov, Belozersk (1999)",
+          "Church of the Holy Apostles Peter and Paul Birch (2003)"
+        ]
+			}
+    ],
+    "fotoUrl": [
+       "https://content.onliner.by/news/1100x5616/db58626e064fa007bef9d007b0b9147a.jpeg",
+       "http://fb.ru/misc/i/gallery/42901/1517053.jpg",
+       "http://ais.by/sites/ais.by/files/2010/201007/k_makarevichu_opt.jpg",
+       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%BD%D0%BE%D0%B2%D0%BE%D0%BC%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%B8_%D0%B8%D1%81%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%A6%D0%B5%D1%80%D0%BA%D0%B2%D0%B8_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9_%28%D1%85%D1%80%D0%B0%D0%BC_%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%D0%BE%29.jpg/300px-%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%BD%D0%BE%D0%B2%D0%BE%D0%BC%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%B8_%D0%B8%D1%81%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%A6%D0%B5%D1%80%D0%BA%D0%B2%D0%B8_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9_%28%D1%85%D1%80%D0%B0%D0%BC_%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%D0%BE%29.jpg",
+       "https://hram.by/images/1-01-17-1.jpg",
+       "https://hram.by/images/1-03-428-3.jpg",
+       "https://hram.by/images/1-03-189-2.jpg",
+       "https://hram.by/images/1-04-30-197.jpg",
+       "https://hram.by/images/5-19-552-3.jpg",
+       "https://hram.by/images/1-01-1013-1.jpg"
+    ],
+    "videoUrl": [
+      "https://www.youtube.com/embed/IeI8-MGvkyY?controls=0"
+		],
+    "mapSrc": {
+			"url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2418943.002650825!2d25.735571143422096!3d53.69600854697774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46da2584e2ad4881%3A0xa1d181ec8c10!2z0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sby!4v1548613413217"
+		}
+  }
 ]
