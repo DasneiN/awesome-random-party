@@ -72,9 +72,15 @@ body {
 }
 
 .main {
-  margin-top: 150px;
-  margin-bottom: 150px;
   flex: 1 0 auto;
+}
+
+.main > *:first-child:not(.architects-info) {
+  margin-top: 170px;
+}
+
+.main > *:last-child:not(.map-box) {
+  margin-bottom: 150px;
 }
 
 .root {

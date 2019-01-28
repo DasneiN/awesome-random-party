@@ -8,8 +8,7 @@
 	color: #414a4f;
 	font: normal 16px sans-serif;
 	justify-content: center;
-	background-color: #87C6FF;
-	
+	margin-top: 133px;
 }
 
 .person-page .architects-info {
@@ -63,9 +62,6 @@
 
 .person-page .source-foto{
 	width: 50%;
-	border-radius: 5px;
-	border: 3px solid #87C6FF;
-	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.199);
 }
 
 .person-page .box-information {
@@ -93,7 +89,7 @@
 
 @media (max-width: 768px){
 
-	
+
 .person-page .inform-architects-source {
 	margin-right: 0;
 }

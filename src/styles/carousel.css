@@ -43,7 +43,7 @@
 	content: "\203a";
   }
   .carousel-container .arrow:hover {
-	color: #fff;
+	color: #e86971;
   }
   .carousel-container li:nth-child(1) > .dot {
 	margin-left: 50px;
@@ -52,10 +52,8 @@
 	height: 0;
 	overflow: hidden;
 	line-height: 22px;
-	background: #D6E3FF;
-	position: absolute;
+  position: absolute;
 	top: 0px;
-	border-radius: 5px;
 	list-style-type: none;
 	padding: 0;
   }
@@ -76,7 +74,7 @@
 	opacity: 1;
 	width: 12px;
 	height: 12px;
-	background: rgba(255,255,255,0.5);
+	background: white;
 	position: relative;
 	margin-top: 56%;
 	margin-bottom: 2%;
@@ -84,17 +82,17 @@
 	z-index: 99;
 	margin-right: 8px;
 	display: block;
-	border: 1px solid #D6E3FF;
+	border: 3px solid #e86971;
   }
   .carousel-container .dot:hover {
-	background: #fff;
+	background: #e86971;
   }
   .carousel-container .carousel-toggle {
 	display: none;
   }
   .carousel-container .carousel-toggle:checked + .dot,
   .carousel-container .carousel-toggle.active + .dot {
-	background: #fff;
+	background: #e86971;
   }
   .carousel-container .carousel-toggle:checked ~ .carousel-content,
   .carousel-container .carousel-toggle.active ~ .carousel-content {
@@ -112,7 +110,6 @@
 	.carousel-container .dot {
 		width: 8px;
 		height: 8px;
-		background: rgba(255,255,255,0.5);
 		position: relative;
 		margin-top: 56%;
 		margin-bottom: 2%;
@@ -127,7 +124,6 @@
 	.carousel-container .dot {
 		width: 10px;
 		height: 10px;
-		background: rgba(255,255,255,0.5);
 		position: relative;
 		margin-top: 56%;
 		margin-bottom: 2%;

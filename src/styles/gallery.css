@@ -8,13 +8,13 @@
     font: normal 16px sans-serif;
 	color: #414a4f;
 	margin: 0 auto;
-	background-color: #D6E3FF;
+	background-color: #EDEDED;
 }
 
 .person-page .foto-works {
 	width: 99%;
     margin: 5px;
-	
+
 }
 
 .person-page .gallery-foto{
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 768px){
-	
+
 	.gallery-title{
 		margin-top: 0;
 		color: #414a4f;
