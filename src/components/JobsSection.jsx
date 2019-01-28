@@ -6,14 +6,14 @@ class JobsSection extends Component {
     const { section } = this.props;
 
     return (
-      <>
-        <h4>{section.nameWorks}</h4>
-        <div>
+      <div className="box-name-works">
+        <h2 className="name-works">{section.nameWorks}</h2>
+        <ul className="name-works-list">
           {section.list.map(item => (
-            <div key={uniqid()}>{item}</div>
+            <li className="list" key={uniqid()}>{item}</li>
           ))}
-        </div>
-      </>
+        </ul>
+      </div>
     );
   }
 }

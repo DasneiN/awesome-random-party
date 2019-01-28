@@ -1,0 +1,45 @@
+
+.person-page.gallery {
+	box-sizing: border-box;
+	padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+    font: normal 16px sans-serif;
+	color: #414a4f;
+	margin: 0 auto;
+	background-color: #D6E3FF;
+}
+
+.person-page .foto-works {
+	width: 99%;
+    margin: 5px;
+	
+}
+
+.person-page .gallery-foto{
+	text-align: center;
+	margin: 0 5px;
+	align-items: center;
+	overflow: hidden;
+	display: flex;
+}
+
+.gallery-title{
+	margin-top: 0;
+	color: #414a4f;
+	font: bold 1.6em 'Open Sans', sans-serif;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+@media (max-width: 768px){
+	
+	.gallery-title{
+		margin-top: 0;
+		color: #414a4f;
+		font: bold 1.2em 'Open Sans', sans-serif;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+}
