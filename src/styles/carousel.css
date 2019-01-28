@@ -1,152 +1,179 @@
 .carousel-container {
-	list-style-type: none;
-	padding: 0;
-	margin: 30px auto;
-	max-width: 100%;
-	width: 700px;
-	height: 100%;
-	border-radius: 5px;
-	position: relative;
-  }
-  .carousel-container .arrow {
-	cursor: pointer;
-    background: rgba(0,0,0,0.5);
-    color: rgba(255,255,255,0.5);
-    display: block;
-    width: 50px;
-    font-size: 60px;
-    text-align: center;
-    margin: 25% 0;
-    bottom: 0;
-    top: 0;
-    position: absolute;
-    z-index: 99;
-    padding-top: 2%;
-    border-radius: 2px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-  }
-  .carousel-container .arrow.back {
-	left: 0px;
-	background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
-  }
-  .carousel-container .arrow.back::before {
-	content: "\2039";
-  }
-  .carousel-container .arrow.next {
-	right: 0px;
-	background: linear-gradient(to left, rgba(0,0,0,0.5), transparent);
-  }
-  .carousel-container .arrow.next::before {
-	content: "\203a";
-  }
-  .carousel-container .arrow:hover {
-	color: #e86971;
-  }
-  .carousel-container li:nth-child(1) > .dot {
-	margin-left: 50px;
-  }
-  .carousel-container .carousel-content {
-	height: 0;
-	overflow: hidden;
-	line-height: 22px;
+  position: relative;
+
+  width: 700px;
+  max-width: 100%;
+  height: 100%;
+  margin: 30px auto;
+  padding: 0;
+
+  list-style-type: none;
+
+  border-radius: 5px;
+}
+
+.carousel-container .arrow {
   position: absolute;
-	top: 0px;
-	list-style-type: none;
-	padding: 0;
-  }
-  .carousel-container .carousel-content img {
-	opacity: 0;
-	padding: 0;
-	position: absolute;
-	left: 0;
-	top: 0;
-	max-width: 100%;
-	border-radius: 2px;
-	transition: 0.2s ease-in;
-  }
+  top: 0;
+  bottom: 0;
+  z-index: 99;
 
+  display: block;
+  width: 50px;
+  margin: 25% 0;
+  padding-top: 2%;
+
+  font-size: 60px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  cursor: pointer;
+
+  user-select: none;
+}
+
+.carousel-container .arrow.back {
+  left: 0;
+
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.carousel-container .arrow.back::before {
+  content: "\2039";
+}
+
+.carousel-container .arrow.next {
+  right: 0;
+
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.carousel-container .arrow.next::before {
+  content: "\203a";
+}
+
+.carousel-container .arrow:hover {
+  color: #e86971;
+}
+
+.carousel-container li:nth-child(1) > .dot {
+  margin-left: 50px;
+}
+
+.carousel-container .carousel-content {
+  position: absolute;
+  top: 0;
+
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+
+  list-style-type: none;
+  line-height: 22px;
+}
+
+.carousel-container .carousel-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  max-width: 100%;
+  padding: 0;
+
+  border-radius: 2px;
+  opacity: 0;
+
+  transition: 0.2s ease-in;
+}
+
+.carousel-container .dot {
+  position: relative;
+  z-index: 99;
+
+  display: block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin-top: 56%;
+  margin-right: 8px;
+  margin-bottom: 2%;
+
+  background: white;
+  border: 3px solid #e86971;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.carousel-container .dot:hover {
+  background: #e86971;
+}
+
+.carousel-container .carousel-toggle {
+  display: none;
+}
+
+.carousel-container .carousel-toggle:checked + .dot,
+.carousel-container .carousel-toggle.active + .dot {
+  background: #e86971;
+}
+
+.carousel-container .carousel-toggle:checked ~ .carousel-content,
+.carousel-container .carousel-toggle.active ~ .carousel-content {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-container .carousel-toggle:checked ~ .carousel-content img,
+.carousel-container .carousel-toggle.active ~ .carousel-content img {
+  opacity: 1;
+}
+
+
+@media (max-width: 320px) {
   .carousel-container .dot {
-	float: left;
-	cursor: pointer;
-	opacity: 1;
-	width: 12px;
-	height: 12px;
-	background: white;
-	position: relative;
-	margin-top: 56%;
-	margin-bottom: 2%;
-	border-radius: 50%;
-	z-index: 99;
-	margin-right: 8px;
-	display: block;
-	border: 3px solid #e86971;
-  }
-  .carousel-container .dot:hover {
-	background: #e86971;
-  }
-  .carousel-container .carousel-toggle {
-	display: none;
-  }
-  .carousel-container .carousel-toggle:checked + .dot,
-  .carousel-container .carousel-toggle.active + .dot {
-	background: #e86971;
-  }
-  .carousel-container .carousel-toggle:checked ~ .carousel-content,
-  .carousel-container .carousel-toggle.active ~ .carousel-content {
-	height: 100%;
-	width: 100%;
-  }
-  .carousel-container .carousel-toggle:checked ~ .carousel-content img,
-  .carousel-container .carousel-toggle.active ~ .carousel-content img {
-	opacity: 1;
-  }
+    position: relative;
 
+    width: 8px;
+    height: 8px;
+    margin-top: 56%;
+    margin-right: 2px;
+    margin-bottom: 2%;
 
-@media (max-width: 320px){
-
-	.carousel-container .dot {
-		width: 8px;
-		height: 8px;
-		position: relative;
-		margin-top: 56%;
-		margin-bottom: 2%;
-		border-radius: 50%;
-		margin-right: 2px;
-	}
-
+    border-radius: 50%;
+  }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  .carousel-container .dot {
+    position: relative;
 
-	.carousel-container .dot {
-		width: 10px;
-		height: 10px;
-		position: relative;
-		margin-top: 56%;
-		margin-bottom: 2%;
-		border-radius: 50%;
-		margin-right: 4px;
-	}
+    width: 10px;
+    height: 10px;
+    margin-top: 56%;
+    margin-right: 4px;
+    margin-bottom: 2%;
 
+    border-radius: 50%;
+  }
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  .gallery h3.title {
+    margin-bottom: 10px;
 
-	.gallery h3.title{
-		color: #414a4f;
-		font: bold 1.2em 'Open Sans', sans-serif;
-		margin-bottom: 10px;
-		text-align: left;
-	}
+    font: bold 1.2em "Open Sans", sans-serif;
+    text-align: left;
+    color: #414a4f;
+  }
 
-	.gallery h2{
-		text-align: left;
-		margin: 0 0 10px 10px;
-		font: bold 1.1em 'Open Sans', sans-serif;
-	}
+  .gallery h2 {
+    margin: 0 0 10px 10px;
 
+    font: bold 1.1em "Open Sans", sans-serif;
+    text-align: left;
+  }
 }

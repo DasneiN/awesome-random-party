@@ -1,45 +1,48 @@
 
 .person-page.gallery {
-	box-sizing: border-box;
-	padding: 20px;
-    margin: 0 auto;
-    position: relative;
-    max-width: 1024px;
-    font: normal 16px sans-serif;
-	color: #414a4f;
-	margin: 0 auto;
-	background-color: #EDEDED;
+  position: relative;
+
+  box-sizing: border-box;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+
+  font: normal 16px sans-serif;
+  color: #414a4f;
+
+  background-color: #ededed;
 }
 
 .person-page .foto-works {
-	width: 99%;
-    margin: 5px;
-
+  width: 99%;
+  margin: 5px;
 }
 
-.person-page .gallery-foto{
-	text-align: center;
-	margin: 0 5px;
-	align-items: center;
-	overflow: hidden;
-	display: flex;
+.person-page .gallery-foto {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+  overflow: hidden;
+
+  text-align: center;
 }
 
-.gallery-title{
-	margin-top: 0;
-	color: #414a4f;
-	font: bold 1.6em 'Open Sans', sans-serif;
-	margin-bottom: 15px;
-	text-align: left;
+.gallery-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+
+  font: bold 1.6em "Open Sans", sans-serif;
+  text-align: left;
+  color: #414a4f;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  .gallery-title {
+    margin-top: 0;
+    margin-bottom: 15px;
 
-	.gallery-title{
-		margin-top: 0;
-		color: #414a4f;
-		font: bold 1.2em 'Open Sans', sans-serif;
-		margin-bottom: 15px;
-		text-align: left;
-	}
+    font: bold 1.2em "Open Sans", sans-serif;
+    text-align: left;
+    color: #414a4f;
+  }
 }

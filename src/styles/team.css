@@ -1,18 +1,15 @@
 .team__member {
-	display: inherit;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
-	-ms-align-items: center;
-	align-items: center;
-	margin: 15px;
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
 }
+
 .team__member img {
-	border: 3px solid #c8c8c8;
-	border-radius: 15px;
+  border: 3px solid #c8c8c8;
+  border-radius: 15px;
 }
+
 .team__member-name {
-	margin: 10px 0;
+  margin: 10px 0;
 }
