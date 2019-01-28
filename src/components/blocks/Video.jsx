@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import uniqid from 'uniqid';
 import { Trans } from 'react-i18next';
 import Lightbox from 'lightbox-react';
+import Loader from './Loader';
 
 import 'lightbox-react/style.css';
 import '../../styles/video.css';
@@ -23,19 +24,22 @@ class Video extends Component {
     const id = uniqid();
 
     const videos = person.videoUrl.map(video => (
-      <iframe
-        title={id}
-        key={id}
-        src={video}
-        style={{
-          position: 'absolute',
-          left: '50%',
-          top: '50%',
-          transform: 'translate(-50%, -50%)',
-          width: '80%',
-          height: '60%',
-        }}
-      />
+      <>
+        <iframe
+          title={id}
+          key={id}
+          src={video}
+          style={{
+            position: 'absolute',
+            left: '50%',
+            top: '50%',
+            transform: 'translate(-50%, -50%)',
+            width: '80%',
+            height: '60%',
+          }}
+        />
+        <Loader />
+      </>
     ));
 
     return (

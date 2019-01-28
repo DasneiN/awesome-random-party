@@ -100,3 +100,8 @@ body {
   flex-direction: column;
   height: 100%;
 }
+
+.iframe-video {
+  position: absolute;
+  z-index: 1002 !important;
+}

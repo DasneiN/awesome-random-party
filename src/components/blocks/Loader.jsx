@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
+import '../../styles/loader.css';
+
 class ArchitectShortInfo extends Component {
   render() {
     return (
-      <div className="loading">
-        <span>loading...</span>
+      <div className="loader">
+        loading...
       </div>
     );
   }
