@@ -1,6 +1,6 @@
 import i18n from 'i18next';
 import { reactI18nextModule } from 'react-i18next';
-import resources from './config/translations.json';
+import resources from './translations.json';
 
 let lang = localStorage.getItem('lang');
 if (!lang) {

@@ -3,8 +3,8 @@ import uniqid from 'uniqid';
 import { Trans } from 'react-i18next';
 import GallerySlide from './GallerySlide';
 
-import '../styles/gallery.css';
-import '../styles/carousel.css';
+import '../../styles/gallery.css';
+import '../../styles/carousel.css';
 
 class Gallery extends Component {
   constructor(props) {

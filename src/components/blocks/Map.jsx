@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import uniqid from 'uniqid';
 
-import '../styles/map.css';
+import '../../styles/map.css';
 
 class Map extends Component {
   render() {

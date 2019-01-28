@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
-import Team from '../components/Team';
-import ArchitectShortInfo from '../components/ArchitectShortInfo';
-import Description from '../components/Description';
+import Team from '../blocks/Team';
+import ArchitectShortInfo from '../blocks/ArchitectShortInfo';
+import Description from '../blocks/Description';
 
 class Main extends Component {
   static getRandomPerson(persons) {

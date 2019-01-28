@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import i18n from 'i18next';
-import Main from '../pages/Main';
-import Architects from '../pages/Architects';
-import Architect from '../pages/Architect';
-import Header from './Header';
-import Loader from './Loader';
-import Footer from './Footer';
+import Main from './pages/Main';
+import Architects from './pages/Architects';
+import Architect from './pages/Architect';
+import Header from './blocks/Header';
+import Loader from './blocks/Loader';
+import Footer from './blocks/Footer';
 import team from '../config/team';
 
 import '../styles/base.css';

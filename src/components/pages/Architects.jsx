@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import uniqid from 'uniqid';
-import ArchitectShortInfo from '../components/ArchitectShortInfo';
-import Search from '../components/Search';
-import NotFound from '../components/NotFound';
+import ArchitectShortInfo from '../blocks/ArchitectShortInfo';
+import Search from '../blocks/Search';
+import NotFound from '../blocks/NotFound';
 
 class Architects extends Component {
   constructor(props) {

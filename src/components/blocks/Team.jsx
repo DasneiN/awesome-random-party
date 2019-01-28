@@ -3,7 +3,7 @@ import uniqid from 'uniqid';
 import { Trans } from 'react-i18next';
 import TeamMember from './TeamMember';
 
-import '../styles/team.css';
+import '../../styles/team.css';
 
 class Team extends Component {
   render() {

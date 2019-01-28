@@ -3,7 +3,7 @@ import { Trans } from 'react-i18next';
 import LangSwitcher from './LangSwitcher';
 import Navbar from './Navbar';
 
-import '../styles/header.css';
+import '../../styles/header.css';
 
 const Header = (props) => {
   const { selectLangHandler, selectPageHandler, currentPage } = props;

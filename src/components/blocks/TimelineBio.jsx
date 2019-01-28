@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import uniqid from 'uniqid';
 import { Trans } from 'react-i18next';
 
-import '../styles/timeline.css';
+import '../../styles/timeline.css';
 
 class TimelineBio extends Component {
   render() {

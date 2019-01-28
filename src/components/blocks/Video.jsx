@@ -4,7 +4,7 @@ import { Trans } from 'react-i18next';
 import Lightbox from 'lightbox-react';
 
 import 'lightbox-react/style.css';
-import '../styles/video.css';
+import '../../styles/video.css';
 
 class Video extends Component {
   constructor(props) {

@@ -2,8 +2,8 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { Component } from 'react';
 
-import '../styles/gallery.css';
-import '../styles/carousel.css';
+import '../../styles/gallery.css';
+import '../../styles/carousel.css';
 
 class GallerySlide extends Component {
   render() {

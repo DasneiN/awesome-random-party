@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import uniqid from 'uniqid';
 import LangSwitcherButton from './LangSwitcherButton';
 
-import by from '../images/lang/by.png';
-import en from '../images/lang/en.png';
-import ru from '../images/lang/ru.png';
+import by from '../../images/lang/by.png';
+import en from '../../images/lang/en.png';
+import ru from '../../images/lang/ru.png';
 
 const langImages = { by, en, ru };
 

@@ -3,7 +3,7 @@ import { Trans } from 'react-i18next';
 import uniqid from 'uniqid';
 import JobsSection from './JobsSection';
 
-import '../styles/jobs.css';
+import '../../styles/jobs.css';
 
 class Jobs extends Component {
   render() {

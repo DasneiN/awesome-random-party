@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
 
-import '../styles/architect-info.css';
+import '../../styles/architect-info.css';
 
 class ArchitectInfo extends Component {
   render() {
