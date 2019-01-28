@@ -7,11 +7,20 @@ import '../styles/carousel.css';
 
 class GallerySlide extends Component {
   render() {
-    const { person, photo, index } = this.props;
+    const {
+      person, photo, index, isChecked, onChange,
+    } = this.props;
 
     return (
       <li>
-        <input className="carousel-toggle" type="radio" checked="checked" name="toggle" id={`tab-${index}`} />
+        <input
+          className="carousel-toggle"
+          type="radio"
+          checked={isChecked && 'checked'}
+          name="toggle"
+          id={`tab-${index}`}
+          onChange={() => onChange(index)}
+        />
         <label className="dot" htmlFor={`tab-${index}`} />
         <ul className="carousel-content">
           <li>

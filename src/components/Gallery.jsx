@@ -7,8 +7,25 @@ import '../styles/gallery.css';
 import '../styles/carousel.css';
 
 class Gallery extends Component {
+  constructor(props) {
+    super(props);
+
+    this.carouselToggleSlider = this.carouselToggleSlider.bind(this);
+
+    this.state = {
+      checkedIndex: 0,
+    };
+  }
+
+  carouselToggleSlider(index) {
+    this.setState({
+      checkedIndex: index,
+    });
+  }
+
   render() {
     const { person } = this.props;
+    const { checkedIndex } = this.state;
 
     return (
       <section className="person-page gallery">
@@ -17,7 +34,14 @@ class Gallery extends Component {
           <ul className="carousel-container">
             {
               person.fotoUrl.map((photo, index) => (
-                <GallerySlide key={uniqid()} person={person} photo={photo} index={index} />
+                <GallerySlide
+                  key={uniqid()}
+                  person={person}
+                  photo={photo}
+                  index={index}
+                  isChecked={index === checkedIndex}
+                  onChange={this.carouselToggleSlider}
+                />
               ))
             }
           </ul>
