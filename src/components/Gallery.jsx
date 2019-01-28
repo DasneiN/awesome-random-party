@@ -16,10 +16,10 @@ class Gallery extends Component {
         <div className="gallery-foto">
           <ul className="carousel-container">
             {
-          person.fotoUrl.map((photo, index) => (
-            <GallerySlide key={uniqid()} person={person} photo={photo} index={index} />
-          ))
-        }
+              person.fotoUrl.map((photo, index) => (
+                <GallerySlide key={uniqid()} person={person} photo={photo} index={index} />
+              ))
+            }
           </ul>
         </div>
       </section>
