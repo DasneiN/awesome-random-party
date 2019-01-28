@@ -33,4 +33,5 @@ class TimelineBio extends Component {
     );
   }
 }
+
 export default TimelineBio;

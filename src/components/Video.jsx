@@ -4,6 +4,7 @@ import { Trans } from 'react-i18next';
 import Lightbox from 'lightbox-react';
 
 import 'lightbox-react/style.css';
+import '../styles/video.css';
 
 class Video extends Component {
   constructor(props) {
@@ -38,25 +39,27 @@ class Video extends Component {
     ));
 
     return (
-      <div className="video">
-        {
-          isOpen && (
-            <Lightbox
-              mainSrc={videos[videoIndex]}
-              nextSrc={videos[(videoIndex + 1) % videos.length]}
-              prevSrc={videos[(videoIndex + videos.length - 1) % videos.length]}
-              onCloseRequest={() => this.setState({ isOpen: false })}
-              onMovePrevRequest={() => this.setState({
-                videoIndex: (videoIndex + videos.length - 1) % videos.length,
-              })}
-              onMoveNextRequest={() => this.setState({
-                videoIndex: (videoIndex + 1) % videos.length,
-              })}
-            />
-          )
-        }
-        <button type="button" onClick={() => this.setState({ isOpen: true })}><Trans>ShowVideo</Trans></button>
-      </div>
+      <section id="video" className="person-page video">
+        <div className="conteiner-video">
+          {
+            isOpen && (
+              <Lightbox
+                mainSrc={videos[videoIndex]}
+                nextSrc={videos[(videoIndex + 1) % videos.length]}
+                prevSrc={videos[(videoIndex + videos.length - 1) % videos.length]}
+                onCloseRequest={() => this.setState({ isOpen: false })}
+                onMovePrevRequest={() => this.setState({
+                  videoIndex: (videoIndex + videos.length - 1) % videos.length,
+                })}
+                onMoveNextRequest={() => this.setState({
+                  videoIndex: (videoIndex + 1) % videos.length,
+                })}
+              />
+            )
+          }
+          <button className="gallery-video" type="button" onClick={() => this.setState({ isOpen: true })}><Trans>ShowVideo</Trans></button>
+        </div>
+      </section>
     );
   }
 }

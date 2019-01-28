@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import uniqid from 'uniqid';
 
+import '../styles/jobs.css';
+
 class JobsSection extends Component {
   render() {
     const { section } = this.props;

@@ -40,4 +40,5 @@ class ArchitectInfo extends Component {
     );
   }
 }
+
 export default ArchitectInfo;
