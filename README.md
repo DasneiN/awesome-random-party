@@ -1,8 +1,13 @@
 # awesome-random-party
-Common repository for CJ
+Common repository for RSS Task 
+[CodeJam-Culture-Portal](https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md)
 
-```
-git clone https://github.com/mikhama/awesome-random-party.git
-```
+## Release
+https://mikhama.github.io/awesome-random-party/
 
-Task link: https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md
+## Contributors
+- Dzmitry Tsebruk @mikhama
+- Aleh Serhiyenia @Pulya10c
+- Denis Goncharov @haspadarZ-padMensku
+- Volha Naranovich @OlgaNaranovich
+- Kirill Gorbikov @Kirill82
