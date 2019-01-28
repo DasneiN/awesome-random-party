@@ -1,0 +1,45 @@
+.person-page.video {
+  position: relative;
+
+  box-sizing: border-box;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+
+  font: normal 16px sans-serif;
+  color: #414a4f;
+}
+
+.person-page .video {
+  flex: 1;
+  width: 230px;
+  margin: 5px;
+}
+
+.conteiner-video {
+  margin: 25px 0;
+
+  text-align: center;
+}
+
+.gallery-video {
+  padding: 10px;
+
+  font-weight: 700;
+  color: black;
+
+  background-color: #e4e4e4;
+  border-bottom: 4px solid rgb(187, 187, 187);
+}
+
+.gallery-video:hover {
+  color: white;
+
+  background-color: #f15858;
+}
+
+.gallery-video:active {
+  margin-top: 3px;
+
+  border-bottom: 1px solid rgb(187, 187, 187);
+}

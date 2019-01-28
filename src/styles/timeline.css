@@ -1,0 +1,42 @@
+.person-page.timeline-bio {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: #ededed;
+}
+
+.person-page .timeline-bio-container {
+  margin: 0 15px 15px 15px;
+}
+
+@media (max-width: 768px) {
+  .person-page .timeline-bio-container {
+    margin: 0 5px 5px 5px;
+  }
+}
+
+.timeline-bio-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+
+  font: bold 1.6em "Open Sans", sans-serif;
+  text-align: left;
+  color: #414a4f;
+}
+
+@media (max-width: 768px) {
+  .timeline-bio-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font: bold 1.2em "Open Sans", sans-serif;
+    text-align: left;
+    color: #414a4f;
+  }
+}

@@ -1,19 +1,17 @@
 .not-found {
-	height: 150px;
-	background-color: #f15858;
-	text-align: center;
-}
-.not-found__text {
-	font-size: 1.3rem;
-	color: white;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	height: 100%;
-	-ms-align-items: center;
-	align-items: center;
-	justify-content: center;
+  height: 150px;
+
+  text-align: center;
+
+  background-color: #af6767;
 }
 
+.not-found__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  font-size: 1.3rem;
+  color: white;
+}

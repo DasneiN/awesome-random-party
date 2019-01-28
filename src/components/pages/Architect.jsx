@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ArchitectInfo from '../components/ArchitectInfo';
-import TimelineBio from '../components/TimelineBio';
-import Video from '../components/Video';
-import Gallery from '../components/Gallery';
-import Map from '../components/Map';
-import Jobs from '../components/Jobs';
+import ArchitectInfo from '../blocks/ArchitectInfo';
+import TimelineBio from '../blocks/TimelineBio';
+import Video from '../blocks/Video';
+import Gallery from '../blocks/Gallery';
+import Map from '../blocks/Map';
+import Jobs from '../blocks/Jobs';
 
 class Architect extends Component {
   componentDidMount() {
@@ -19,8 +19,8 @@ class Architect extends Component {
         <ArchitectInfo person={data[indexPersonToShow]} />
         <TimelineBio person={data[indexPersonToShow]} />
         <Jobs person={data[indexPersonToShow]} />
-        <Video person={data[indexPersonToShow]} />
         <Gallery person={data[indexPersonToShow]} />
+        <Video person={data[indexPersonToShow]} />
         <Map person={data[indexPersonToShow]} />
       </main>
     );

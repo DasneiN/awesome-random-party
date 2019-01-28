@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
 
-import '../styles/search.css';
+import '../../styles/search.css';
 
 class Search extends Component {
   constructor(props) {
