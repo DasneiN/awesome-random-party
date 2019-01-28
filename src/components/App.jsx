@@ -30,7 +30,7 @@ class App extends Component {
     };
   }
 
-  async componentDidMount() {
+  componentDidMount() {
     const { lang } = this.state;
 
     this.loadData(lang);
